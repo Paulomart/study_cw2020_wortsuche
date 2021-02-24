@@ -1,0 +1,15 @@
+package cool.paul.fh.wortsuche.client;
+
+import java.util.concurrent.CountDownLatch;
+
+import cool.paul.fh.wortsuche.common.entity.Player;
+
+public abstract class AbstractTest {
+
+	private static CountDownLatch latch;
+
+	private static ServiceHandlerImpl i1;
+	private static ServiceHandlerImpl i2;
+	private static Player p1;
+	private static Player p2;
+}

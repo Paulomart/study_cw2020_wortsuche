@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.glassfish.tools"
+      label="%featureName"
+      version="1.0.1.201904090220"
+      provider-name="%providerName"
+      plugin="org.eclipse.glassfish.tools">
+
+   <description>
+      %featureDescription
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.platform" version="4.7.2" match="compatible"/>
+      <import feature="org.eclipse.sapphire" version="9.1" match="compatible"/>
+      <import feature="org.eclipse.sapphire.java" version="9.1" match="compatible"/>
+      <import feature="org.eclipse.sapphire.java.jdt" version="9.1" match="compatible"/>
+      <import feature="org.eclipse.sapphire.modeling.xml" version="9.1" match="compatible"/>
+      <import feature="org.eclipse.sapphire.osgi" version="9.1" match="compatible"/>
+      <import feature="org.eclipse.sapphire.platform" version="9.1" match="compatible"/>
+      <import feature="org.eclipse.sapphire.ui" version="9.1" match="compatible"/>
+      <import feature="org.eclipse.sapphire.ui.swt.xml.editor" version="9.1" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.glassfish.tools"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.201904090220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.glassfish.tools.jver"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.201904090220"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.glassfish.tools.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.201904090220"
+         unpack="false"/>
+
+</feature>

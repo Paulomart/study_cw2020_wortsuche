@@ -1,0 +1,16 @@
+package cool.paul.fh.wortsuche.common.beans;
+
+import javax.ejb.Remote;
+
+import cool.paul.fh.wortsuche.common.entity.Player;
+import cool.paul.fh.wortsuche.common.exception.NoGameFoundException;
+
+@Remote
+public interface PlayerSessionRemote {
+
+	Player join(String name) throws NoGameFoundException;
+
+	Player getPlayer();
+
+	void startGame() throws NoGameFoundException;
+}

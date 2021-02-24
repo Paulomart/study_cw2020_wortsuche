@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613041369716_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613041369729_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613053436321_3" label="shop" name="shop">
+<item elementID="=Wortsuche-common/ejbModule&lt;cool.paul.fh.wortsuche.common.entity{Map.java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PersonManagement-ejb" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Shop-common" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Shop-app-client" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Shop-ear" type="4"/>
+<item elementID="=Shop-ejb" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PersonManagement-common" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613041383259_2" label="Window Working Set" name="Aggregate for window 1613041383259"/>
+<mruList name="shop"/>
+</workingSetManager>

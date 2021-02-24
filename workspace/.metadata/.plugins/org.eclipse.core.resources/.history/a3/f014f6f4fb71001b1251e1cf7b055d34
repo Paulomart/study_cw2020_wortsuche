@@ -1,0 +1,5 @@
+package cool.paul.fh.wortsuche.common.exception;
+
+public class PlayerNotFoundException extends Exception {
+
+}

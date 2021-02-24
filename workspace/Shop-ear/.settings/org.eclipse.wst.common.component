@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Shop-ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Shop-ejb.jar" deploy-path="/" handle="module:/resource/Shop-ejb/Shop-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Shop-common.jar" deploy-path="/" handle="module:/resource/Shop-common/Shop-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PersonManagement-ejb.jar" deploy-path="/" handle="module:/resource/PersonManagement-ejb/PersonManagement-ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PersonManagement-common.jar" deploy-path="/" handle="module:/resource/PersonManagement-common/PersonManagement-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

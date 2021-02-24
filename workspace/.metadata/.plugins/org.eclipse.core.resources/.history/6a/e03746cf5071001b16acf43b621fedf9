@@ -1,0 +1,14 @@
+package cool.paul.fh.wortsuche.common.beans;
+
+import cool.paul.fh.wortsuche.common.entity.Game;
+import cool.paul.fh.wortsuche.common.entity.Player;
+import cool.paul.fh.wortsuche.common.exception.NotYourTurnException;
+import cool.paul.fh.wortsuche.common.exception.WordAlreadySolvedException;
+
+public interface GameInstance {
+
+	Game getGame();
+
+	boolean selectWord(Player player, int x1, int y1, int x2, int y2) throws NotYourTurnException, WordAlreadySolvedException;
+
+}

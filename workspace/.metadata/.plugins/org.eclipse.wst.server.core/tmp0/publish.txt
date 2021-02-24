@@ -1,0 +1,4 @@
+#GlassFish 3
+#Wed Feb 24 11:49:32 CET 2021
+org.eclipse.jst.jee.server\:Wortsuche-ear=D\:\\componentware-stuff\\glassfish5\\glassfish\\domains\\domain1\\eclipseApps\\Wortsuche-ear
+org.eclipse.jst.jee.server\:Shop-ear=D\:\\componentware-stuff\\glassfish5\\glassfish\\domains\\domain1\\eclipseApps\\Shop-ear

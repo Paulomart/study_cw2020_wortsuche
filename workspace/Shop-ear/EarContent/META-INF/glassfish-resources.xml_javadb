@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE resources PUBLIC
+	"-//GlassFish.org//DTD GlassFish Application Server 3.1 Resource Definitions//EN"
+	"http://glassfish.org/dtds/glassfish-resources_1_5.dtd">
+<resources>
+
+	<mail-resource jndi-name="java:app/mail/Shop" 
+					host="smtp.gmail.com" 
+					from="seelabfhdortmund@gmail.com"  
+					user="seelabfhdortmund@gmail.com">
+		<property name="mail.smtp.port" value="465" />
+		<property name="mail.smtp.auth" value="true" />
+		<property name="mail.smtp.password" value="xxx" />
+		<property name="mail.smtp.socketFactory.class" value="javax.net.ssl.SSLSocketFactory" />
+	</mail-resource>
+
+
+	<!-- ############### -->
+	<!-- ### JavaDB   ## -->
+	<!-- ############### -->
+	
+	<jdbc-connection-pool name="ShopDBPool"
+						  res-type="javax.sql.ConnectionPoolDataSource"
+						  datasource-classname="org.apache.derby.jdbc.ClientDataSource">
+		<property name="serverName" value="localhost" />
+		<property name="port" value="1527" />
+		<property name="databaseName" value="shop" />
+		<property name="connectionAttributes" value=";create=true"></property>
+		<property name="user" value="APP" />
+		<property name="password" value="APP" />
+	</jdbc-connection-pool>
+
+
+	<jdbc-resource enabled="true"
+				   jndi-name="java:app/jdbc/ShopDB"
+				   pool-name="ShopDBPool" />
+
+</resources>
