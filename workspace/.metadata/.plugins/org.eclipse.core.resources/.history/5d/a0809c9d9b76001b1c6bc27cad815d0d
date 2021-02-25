@@ -1,0 +1,109 @@
+package cool.paul.fh.wortsuche.client;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.concurrent.atomic.LongAccumulator;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import cool.paul.fh.wortsuche.common.beans.GameInstanceRemote;
+import cool.paul.fh.wortsuche.common.beans.GameManagementRemote;
+import cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote;
+import cool.paul.fh.wortsuche.common.entity.Game;
+import cool.paul.fh.wortsuche.common.entity.GameState;
+import cool.paul.fh.wortsuche.common.entity.Map;
+import cool.paul.fh.wortsuche.common.entity.Player;
+import cool.paul.fh.wortsuche.common.entity.SolvedWord;
+import cool.paul.fh.wortsuche.common.entity.Word;
+import cool.paul.fh.wortsuche.common.exception.GameAlreadyRunningException;
+import cool.paul.fh.wortsuche.common.exception.MapNotFoundException;
+import cool.paul.fh.wortsuche.common.exception.NoGameFoundException;
+import cool.paul.fh.wortsuche.common.exception.PlayerAlreadyJoinedException;
+import cool.paul.fh.wortsuche.common.exception.PlayerNotFoundException;
+
+public class PlayerSessionTest {
+
+	private Context ctx;
+
+	private GameInstanceRemote gameInstance;
+	private GameManagementRemote gameManagement;
+
+	@Before
+	public void initializeBeans() {
+		try {
+			ctx = new InitialContext();
+
+			gameInstance = (GameInstanceRemote) ctx.lookup(
+					"java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceRemote");
+			gameManagement = (GameManagementRemote) ctx.lookup(
+					"java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementRemote");
+
+		} catch (NamingException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
+	@Test
+	@SuppressWarnings("deprecation")
+	public void test_join_vaild() throws NoGameFoundException, PlayerNotFoundException, GameAlreadyRunningException,
+			MapNotFoundException, PlayerAlreadyJoinedException {
+
+		List<Player> players = new ArrayList<>();
+		List<Word> words = new ArrayList<>();
+		Set<SolvedWord> solvedWords = new HashSet<>();
+
+		Map map = new Map(209, 6, 5, "AHELLODESFGNDSEFGNDSLFGNAAAAAA", words);
+
+		Game game = new Game(208, GameState.RUNNING, players, null, map, solvedWords);
+
+		gameManagement.$$createGameForTesting(game);
+
+		assertEquals(game, gameInstance.getGame());
+	}
+
+	@Test(expected = PlayerAlreadyJoinedException.class)
+	public void test_join_invalid() throws NoGameFoundException, PlayerNotFoundException, GameAlreadyRunningException,
+			MapNotFoundException, PlayerAlreadyJoinedException {
+		gameInstance.newGame(1);
+
+		playerSession.join("test");
+		playerSession.join("test");
+
+		assertEquals("test", playerSession.getPlayer().getName());
+	}
+
+	@Test
+	public void test_getPlayer_invaild() {
+		assertNull(playerSession.getPlayer());
+	}
+
+	@Test
+	public void test_getPlayer_vaild() throws GameAlreadyRunningException, MapNotFoundException, NoGameFoundException,
+			PlayerNotFoundException, PlayerAlreadyJoinedException {
+		gameInstance.newGame(1);
+
+		playerSession.join("test");
+		assertNotNull(playerSession.getPlayer());
+	}
+
+	@After
+	public void cleanup() {
+		try {
+			gameInstance.stop();
+		} catch (NoGameFoundException e) {
+		}
+	}
+
+}

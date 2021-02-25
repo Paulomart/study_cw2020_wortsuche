@@ -1,16 +1,16 @@
 package cool.paul.fh.wortsuche.common.beans;
 
 import cool.paul.fh.wortsuche.common.entity.Game;
+import cool.paul.fh.wortsuche.common.entity.Map;
 import cool.paul.fh.wortsuche.common.entity.Player;
 import cool.paul.fh.wortsuche.common.exception.GameAlreadyRunningException;
-import cool.paul.fh.wortsuche.common.exception.MapNotFoundException;
 import cool.paul.fh.wortsuche.common.exception.NoGameFoundException;
 import cool.paul.fh.wortsuche.common.exception.NotYourTurnException;
 import cool.paul.fh.wortsuche.common.exception.WordAlreadySolvedException;
 
 public interface GameInstance {
 
-	void newGame(int mapId) throws GameAlreadyRunningException, MapNotFoundException;
+	void newGame(Map map) throws GameAlreadyRunningException;
 
 	boolean resumeGame() throws GameAlreadyRunningException;
 

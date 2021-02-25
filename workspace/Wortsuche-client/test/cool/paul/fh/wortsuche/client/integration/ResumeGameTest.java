@@ -15,6 +15,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import cool.paul.fh.wortsuche.client.TestHelper;
 import cool.paul.fh.wortsuche.common.beans.GameManagementRemote;
 import cool.paul.fh.wortsuche.common.entity.Game;
 import cool.paul.fh.wortsuche.common.entity.GameState;
@@ -23,9 +24,9 @@ import cool.paul.fh.wortsuche.common.entity.Player;
 import cool.paul.fh.wortsuche.common.entity.SolvedWord;
 import cool.paul.fh.wortsuche.common.entity.Word;
 import cool.paul.fh.wortsuche.common.exception.GameAlreadyRunningException;
-import cool.paul.fh.wortsuche.common.exception.MapNotFoundException;
 import cool.paul.fh.wortsuche.common.exception.NoGameFoundException;
 import cool.paul.fh.wortsuche.common.exception.NotYourTurnException;
+import cool.paul.fh.wortsuche.common.exception.PlayerAlreadyJoinedException;
 import cool.paul.fh.wortsuche.common.exception.PlayerNotFoundException;
 import cool.paul.fh.wortsuche.common.exception.WordAlreadySolvedException;
 
@@ -34,7 +35,7 @@ public class ResumeGameTest extends AbstractTwoPlayerTest {
 
 	@Test
 	public void _01_ensure_no_game_is_playing() {
-		assertEquals(null, i1.getGame());
+		assertEquals(null, h1.getGame());
 	}
 
 	@Test
@@ -46,20 +47,19 @@ public class ResumeGameTest extends AbstractTwoPlayerTest {
 		p1 = new Player(212, "Eins");
 		p2 = new Player(213, "Zwei");
 
+		Map map = TestHelper.getSmallMap(h2.getAllMaps());
+
 		List<Player> players = new ArrayList<>();
 		players.add(p1);
 		players.add(p2);
 
-		List<Word> words = new ArrayList<>();
-		Word w = new Word(210, 1, 5, 0, 0);
-		words.add(w);
-
-		words.add(new Word(211, 2, 0, 2, 3));
-
 		Set<SolvedWord> solvedWords = new HashSet<>();
-		solvedWords.add(new SolvedWord(w, p1));
 
-		Map map = new Map(209, 6, 5, "AHELLODESFGNDSEFGNDSLFGNAAAAAA", words);
+		for (Word w : map.getWords()) {
+			if (w.getString(map).equalsIgnoreCase("HELLO")) {
+				solvedWords.add(new SolvedWord(w, p1));
+			}
+		}
 
 		Game game = new Game(208, GameState.RUNNING, players, p2, map, solvedWords);
 
@@ -71,15 +71,15 @@ public class ResumeGameTest extends AbstractTwoPlayerTest {
 	}
 
 	@Test
-	public void _03_resume_game()
-			throws GameAlreadyRunningException, MapNotFoundException, NoGameFoundException, PlayerNotFoundException {
-		i1.resumeGame();
+	public void _03_resume_game() throws GameAlreadyRunningException, NoGameFoundException, PlayerNotFoundException,
+			PlayerAlreadyJoinedException {
+		h1.resumeGame();
 
-		i1.join("Eins");
-		i2.join("Zwei");
+		h1.join("Eins");
+		h2.join("Zwei");
 
-		assertEquals(GameState.RUNNING, i1.getGame().getState());
-		assertEquals(p2, i1.getGame().getCurrentTurn());
+		assertEquals(GameState.RUNNING, h1.getGame().getState());
+		assertEquals(p2, h1.getGame().getCurrentTurn());
 	}
 
 	@Test
@@ -87,20 +87,20 @@ public class ResumeGameTest extends AbstractTwoPlayerTest {
 			throws NotYourTurnException, WordAlreadySolvedException, NoGameFoundException, InterruptedException {
 		latch = new CountDownLatch(2);
 
-		String foundWord = i2.selectWord(2, 0, 2, 3);
+		String foundWord = h2.selectWord(2, 0, 2, 3);
 		assertEquals("ESEL", foundWord);
 		latch.await();
 
-		assertEquals(2, i2.getGame().getSolvedWords().size());
-		assertEquals(GameState.FINISHED, i1.getGame().getState());
-		assertEquals(GameState.FINISHED, i2.getGame().getState());
-		assertEquals(null, i1.getGame().getCurrentTurn());
+		assertEquals(2, h2.getGame().getSolvedWords().size());
+		assertEquals(GameState.FINISHED, h1.getGame().getState());
+		assertEquals(GameState.FINISHED, h2.getGame().getState());
+		assertEquals(null, h1.getGame().getCurrentTurn());
 	}
 
 	@Test
 	public void _05_stop_game() throws NoGameFoundException {
-		i1.stopGame();
+		h1.stopGame();
 
-		assertEquals(null, i1.getGame());
+		assertEquals(null, h1.getGame());
 	}
 }

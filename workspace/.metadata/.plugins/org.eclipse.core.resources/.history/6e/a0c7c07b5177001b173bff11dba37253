@@ -1,0 +1,22 @@
+package cool.paul.fh.wortsuche.client.integration;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import cool.paul.fh.wortsuche.client.ServiceHandlerImpl;
+
+public class MapCreationTest {
+	static ServiceHandlerImpl handler;
+
+	@BeforeClass
+	public static void setup() {
+		handler = new ServiceHandlerImpl();
+	}
+
+	@Test
+	public void _01_ensure_no_game_is_playing() {
+		assertEquals(null, h1.getGame());
+	}
+}

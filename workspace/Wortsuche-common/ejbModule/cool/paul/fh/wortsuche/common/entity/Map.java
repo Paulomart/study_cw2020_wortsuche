@@ -1,10 +1,7 @@
 package cool.paul.fh.wortsuche.common.entity;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -12,9 +9,13 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 
 @Entity
+@NamedQueries({ @NamedQuery(name = "Map.all", query = "SELECT m FROM Map m"),
+		@NamedQuery(name = "Map.byId", query = "SELECT m FROM Map m WHERE m.id = :id") })
 public class Map implements Serializable {
 
 	private static final long serialVersionUID = -9101563976143461026L;
@@ -97,38 +98,6 @@ public class Map implements Serializable {
 			s.append('\n');
 		}
 		return s.toString();
-	}
-
-	public static Map fromArray(String[] rows, int... words) {
-		if (words.length % 4 != 0) {
-			throw new IllegalArgumentException("Words must be multiple of 4.");
-		}
-
-		int width = rows[0].length();
-		for (int i = 1; i < rows.length; i++) {
-			if (rows[i].length() != width) {
-				throw new IllegalArgumentException("All rows must be equal sized. Offending row: " + i);
-			}
-		}
-
-		String mapString = Stream.of(rows).collect(Collectors.joining());
-		int height = rows.length;
-
-		int wordCount = words.length / 4;
-
-		List<Word> wordsSet = new ArrayList<>(wordCount);
-		for (int i = 0; i < words.length; i += 4) {
-
-			int x1 = words[i];
-			int y1 = words[i + 1];
-			int x2 = words[i + 2];
-			int y2 = words[i + 3];
-
-			Word w = new Word(x1, y1, x2, y2);
-			wordsSet.add(w);
-		}
-
-		return new Map(width, height, mapString, wordsSet);
 	}
 
 	@Override

@@ -298,6 +298,13 @@ repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210224-044048/
 repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210224-044048/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
 repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210224-044048/uri=http\://download.eclipse.org/usssdk/drops/nightly/N20210224-044048
 repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210224-044048/version=1.0.0
+repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210225-044057/enabled=false
+repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210225-044057/isSystem=true
+repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210225-044057/name=org.eclipse.userstorage.site
+repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210225-044057/suffix=content.xml.xz
+repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210225-044057/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210225-044057/uri=http\://download.eclipse.org/usssdk/drops/nightly/N20210225-044057
+repositories/http\:__download.eclipse.org_usssdk_drops_nightly_N20210225-044057/version=1.0.0
 repositories/http\:__download.eclipse.org_usssdk_drops_release_1.1.0/enabled=false
 repositories/http\:__download.eclipse.org_usssdk_drops_release_1.1.0/isSystem=true
 repositories/http\:__download.eclipse.org_usssdk_drops_release_1.1.0/name=org.eclipse.userstorage.site

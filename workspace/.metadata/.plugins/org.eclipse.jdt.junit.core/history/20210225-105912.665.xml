@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="test" project="Wortsuche-client" tests="47" started="47" failures="0" errors="0" ignored="0">
+  <testsuite name="cool.paul.fh.wortsuche.client.MapManagementTest" time="17.795">
+    <testcase name="test_getMapById_valid" classname="cool.paul.fh.wortsuche.client.MapManagementTest" time="12.409"/>
+    <testcase name="test_createMap" classname="cool.paul.fh.wortsuche.client.MapManagementTest" time="5.107"/>
+    <testcase name="test_getAllMaps_vaild" classname="cool.paul.fh.wortsuche.client.MapManagementTest" time="0.042"/>
+    <testcase name="test_getMapById_invalid_mapId" classname="cool.paul.fh.wortsuche.client.MapManagementTest" time="0.237"/>
+  </testsuite>
+  <testsuite name="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="10.658">
+    <testcase name="_01_ensure_no_game_is_playing" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.064"/>
+    <testcase name="_02_start_new_game" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="4.702"/>
+    <testcase name="_03_join_player1" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="4.832"/>
+    <testcase name="_04_join_player4" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.168"/>
+    <testcase name="_05_start_game" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.238"/>
+    <testcase name="_06_select_word" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.213"/>
+    <testcase name="_07_selected_already_solved_word" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.01"/>
+    <testcase name="_08_illegal_turn_order" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.006"/>
+    <testcase name="_09_select_last_word" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.213"/>
+    <testcase name="_10_stop_game" classname="cool.paul.fh.wortsuche.client.integration.SimpleMap1Test" time="0.211"/>
+  </testsuite>
+  <testsuite name="cool.paul.fh.wortsuche.client.GameInstanceTest" time="2.217">
+    <testcase name="test_resumeGame_vaild" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.058"/>
+    <testcase name="test_newGame_already_running" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.257"/>
+    <testcase name="test_resumeGame_already_running" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.252"/>
+    <testcase name="test_stopGame_no_game" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.019"/>
+    <testcase name="test_stopGame_not_started" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.257"/>
+    <testcase name="test_startGame_no_game_running" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.019"/>
+    <testcase name="test_newGame_vaild" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.253"/>
+    <testcase name="test_stopGame_valid" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.483"/>
+    <testcase name="test_startGame_valid" classname="cool.paul.fh.wortsuche.client.GameInstanceTest" time="0.618"/>
+  </testsuite>
+  <testsuite name="cool.paul.fh.wortsuche.client.integration.ResumeGameTest" time="0.79">
+    <testcase name="_01_ensure_no_game_is_playing" classname="cool.paul.fh.wortsuche.client.integration.ResumeGameTest" time="0.001"/>
+    <testcase name="_02_seed_game" classname="cool.paul.fh.wortsuche.client.integration.ResumeGameTest" time="0.261"/>
+    <testcase name="_03_resume_game" classname="cool.paul.fh.wortsuche.client.integration.ResumeGameTest" time="0.041"/>
+    <testcase name="_04_select_last_word" classname="cool.paul.fh.wortsuche.client.integration.ResumeGameTest" time="0.178"/>
+    <testcase name="_05_stop_game" classname="cool.paul.fh.wortsuche.client.integration.ResumeGameTest" time="0.309"/>
+  </testsuite>
+  <testsuite name="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="2.617">
+    <testcase name="_01_ensure_no_game_is_playing" classname="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="0.002"/>
+    <testcase name="_02_start_new_game" classname="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="0.092"/>
+    <testcase name="_03_join_player1" classname="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="0.124"/>
+    <testcase name="_04_join_player4" classname="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="0.148"/>
+    <testcase name="_05_start_game" classname="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="0.187"/>
+    <testcase name="_06_auto_play_all_words" classname="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="1.718"/>
+    <testcase name="_07_stop_game" classname="cool.paul.fh.wortsuche.client.integration.ComplexMap2Test" time="0.346"/>
+  </testsuite>
+  <testsuite name="cool.paul.fh.wortsuche.client.GameManagementTest" time="0.323">
+    <testcase name="test_join_vaild" classname="cool.paul.fh.wortsuche.client.GameManagementTest" time="0.323"/>
+  </testsuite>
+  <testsuite name="cool.paul.fh.wortsuche.client.PlayerSessionTest" time="1.427">
+    <testcase name="test_getPlayer_vaild" classname="cool.paul.fh.wortsuche.client.PlayerSessionTest" time="0.457"/>
+    <testcase name="test_join_vaild" classname="cool.paul.fh.wortsuche.client.PlayerSessionTest" time="0.475"/>
+    <testcase name="test_getPlayer_invaild" classname="cool.paul.fh.wortsuche.client.PlayerSessionTest" time="0.015"/>
+    <testcase name="test_join_invalid" classname="cool.paul.fh.wortsuche.client.PlayerSessionTest" time="0.48"/>
+  </testsuite>
+  <testsuite name="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="11.197">
+    <testcase name="_01_ensure_no_game_is_playing" classname="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="0.0"/>
+    <testcase name="_02_start_new_game" classname="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="0.09"/>
+    <testcase name="_03_join_player1" classname="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="0.135"/>
+    <testcase name="_04_join_player4" classname="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="0.166"/>
+    <testcase name="_05_start_game" classname="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="0.126"/>
+    <testcase name="_06_sleep_to_long" classname="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="10.508"/>
+    <testcase name="_07_stop_game" classname="cool.paul.fh.wortsuche.client.integration.TurnTimeoutTest" time="0.172"/>
+  </testsuite>
+</testrun>

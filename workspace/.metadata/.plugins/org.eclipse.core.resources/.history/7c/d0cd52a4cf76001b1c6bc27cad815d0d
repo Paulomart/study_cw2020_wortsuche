@@ -1,0 +1,17 @@
+package cool.paul.fh.wortsuche;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import cool.paul.fh.wortsuche.common.beans.MapManagementLocal;
+import cool.paul.fh.wortsuche.common.beans.MapManagementRemote;
+import cool.paul.fh.wortsuche.common.entity.Player;
+
+@Stateless
+public class MapManagementBean implements MapManagementLocal, MapManagementRemote {
+
+	@PersistenceContext
+	private EntityManager entityManager;
+
+}

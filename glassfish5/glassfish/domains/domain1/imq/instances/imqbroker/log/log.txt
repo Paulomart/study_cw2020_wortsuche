@@ -12542,3 +12542,1383 @@ Java Runtime: 1.8.0_121 Oracle Corporation C:\Program Files\Java\jdk1.8.0_121\jr
 |#]
 
 
+[#|2021-02-24T12:17:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T12:17:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T12:18:50.589+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=69;_ThreadName=p: thread-pool-1; w: 5;|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T12:20:52.813+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T12:20:52.813+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T12:20:52.813+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T12:20:52.813+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T12:27:08.330+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T12:27:08.332+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T12:37:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T12:37:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T12:47:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T12:47:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T12:57:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T12:57:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T12:57:57.374+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=65;_ThreadName=p: thread-pool-1; w: 1;|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T13:01:51.240+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T13:01:51.240+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T13:01:51.240+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T13:01:51.240+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T13:07:06.174+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T13:07:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T13:13:30.224+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=68;_ThreadName=p: thread-pool-1; w: 4;|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T13:15:31.741+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T13:15:31.741+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T13:15:31.741+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T13:15:31.741+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T13:22:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T13:22:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T13:32:06.177+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T13:32:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T13:37:00.839+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=65;_ThreadName=p: thread-pool-1; w: 1;|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T13:39:01.098+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T13:39:01.098+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T13:39:01.098+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T13:39:01.099+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T13:42:06.175+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T13:42:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T13:47:06.180+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T13:47:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T13:52:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T13:52:06.190+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T14:00:54.519+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50187->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T14:00:54.600+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T14:00:54.626+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=266;_ThreadName=Thread-jms[2];|[B1065]: Accepting: guest@127.0.0.1:50189->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T14:00:54.639+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=268;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:50191->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T14:01:08.718+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=270;_ThreadName=Thread-jms[6];|[B1065]: Accepting: guest@127.0.0.1:50207->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T14:01:08.729+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:50209->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T14:01:09.593+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[10];|[B1065]: Accepting: guest@127.0.0.1:50211->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T14:01:09.602+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=276;_ThreadName=Thread-jms[12];|[B1065]: Accepting: guest@127.0.0.1:50213->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T14:01:12.998+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=278;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:50218->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T14:01:13.006+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=280;_ThreadName=Thread-jms[16];|[B1065]: Accepting: guest@127.0.0.1:50220->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T14:01:24.901+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=280;_ThreadName=Thread-jms[16];|[B1066]:   Closing: guest@127.0.0.1:50220->jms:61645 because "java.net.SocketException: Connection reset". Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T14:01:24.906+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=270;_ThreadName=Thread-jms[6];|[B1066]:   Closing: guest@127.0.0.1:50207->jms:61645 because "java.net.SocketException: Connection reset". Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T14:01:24.906+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=276;_ThreadName=Thread-jms[12];|[B1066]:   Closing: guest@127.0.0.1:50213->jms:61645 because "java.net.SocketException: Connection reset". Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T14:01:24.906+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=278;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:50218->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T14:01:24.906+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=266;_ThreadName=Thread-jms[2];|[B1066]:   Closing: guest@127.0.0.1:50189->jms:61645 because "java.net.SocketException: Connection reset". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T14:01:24.906+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50187->jms:61645 because "java.net.SocketException: Connection reset". Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T14:01:24.907+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=268;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:50191->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T14:01:24.907+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:50209->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T14:01:24.907+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[10];|[B1066]:   Closing: guest@127.0.0.1:50211->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=3
+|#]
+
+
+[#|2021-02-24T14:03:24.909+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T14:03:24.909+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T14:03:24.909+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T14:03:24.909+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T14:07:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T14:07:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T14:07:55.637+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:50469->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T14:07:55.728+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T14:07:55.754+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:50471->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T14:07:55.770+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:50473->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T14:08:09.483+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1065]: Accepting: guest@127.0.0.1:50489->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T14:08:09.493+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:50491->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T14:08:10.485+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=285;_ThreadName=Thread-jms[13];|[B1065]: Accepting: guest@127.0.0.1:50496->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T14:08:10.494+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=287;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:50498->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T14:08:14.158+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=289;_ThreadName=Thread-jms[15];|[B1065]: Accepting: guest@127.0.0.1:50500->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T14:08:14.166+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=291;_ThreadName=Thread-jms[12];|[B1065]: Accepting: guest@127.0.0.1:50502->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T14:08:26.022+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:50471->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T14:08:26.023+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1066]:   Closing: guest@127.0.0.1:50489->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T14:08:26.023+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=289;_ThreadName=Thread-jms[15];|[B1066]:   Closing: guest@127.0.0.1:50500->jms:61645 because "java.net.SocketException: Connection reset". Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T14:08:26.022+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=285;_ThreadName=Thread-jms[13];|[B1066]:   Closing: guest@127.0.0.1:50496->jms:61645 because "java.net.SocketException: Connection reset". Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T14:08:26.022+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:50473->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T14:08:26.023+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:50491->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T14:08:26.023+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:50469->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T14:08:26.023+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=287;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:50498->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T14:08:26.023+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=291;_ThreadName=Thread-jms[12];|[B1066]:   Closing: guest@127.0.0.1:50502->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T14:10:26.026+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T14:10:26.026+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T14:10:26.026+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T14:10:26.026+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T14:17:06.175+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T14:17:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T14:27:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T14:27:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T14:37:06.180+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T14:37:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T14:42:35.622+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:51728->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T14:42:35.741+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T14:42:35.765+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:51730->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T14:42:35.779+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1065]: Accepting: guest@127.0.0.1:51732->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T14:42:46.852+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1066]:   Closing: guest@127.0.0.1:51732->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T14:42:46.852+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:51728->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T14:42:46.852+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:51730->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T14:44:46.862+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T14:44:46.862+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T14:44:46.862+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T14:44:46.862+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T14:52:06.173+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T14:52:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T14:57:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T14:57:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T15:02:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T15:02:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T15:07:40.036+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:52659->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T15:07:40.108+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T15:07:40.131+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1065]: Accepting: guest@127.0.0.1:52661->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T15:07:40.142+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:52663->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T15:07:54.314+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=268;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:52679->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T15:07:54.323+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:52681->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T15:07:55.411+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=375;_ThreadName=Thread-jms[11];|[B1065]: Accepting: guest@127.0.0.1:52683->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T15:07:55.418+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=377;_ThreadName=Thread-jms[10];|[B1065]: Accepting: guest@127.0.0.1:52685->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T15:07:59.865+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=379;_ThreadName=Thread-jms[13];|[B1065]: Accepting: guest@127.0.0.1:52690->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T15:07:59.885+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=381;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:52692->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T15:08:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=381;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:52692->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T15:08:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=268;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:52679->jms:61645 because "java.net.SocketException: Connection reset". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T15:08:11.961+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1066]:   Closing: guest@127.0.0.1:52661->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T15:08:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=379;_ThreadName=Thread-jms[13];|[B1066]:   Closing: guest@127.0.0.1:52690->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T15:08:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:52663->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T15:08:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=377;_ThreadName=Thread-jms[10];|[B1066]:   Closing: guest@127.0.0.1:52685->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T15:08:11.961+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:52659->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T15:08:11.961+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:52681->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T15:08:11.961+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=375;_ThreadName=Thread-jms[11];|[B1066]:   Closing: guest@127.0.0.1:52683->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T15:10:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T15:10:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T15:10:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T15:10:11.960+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T15:17:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T15:17:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T15:27:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T15:27:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T15:37:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T15:37:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T15:47:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T15:47:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T15:57:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T15:57:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:07:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:07:06.177+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:12:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:12:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:17:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:17:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:27:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:27:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:37:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:37:06.180+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:42:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:42:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:47:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:47:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T16:57:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T16:57:06.177+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T17:02:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T17:02:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T17:07:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T17:07:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T17:17:06.174+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T17:17:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T17:27:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T17:27:06.180+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T17:37:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T17:37:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T17:47:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T17:47:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T17:57:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T17:57:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T18:07:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T18:07:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T18:17:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T18:17:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T18:22:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T18:22:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T18:32:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T18:32:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T18:42:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T18:42:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T18:52:06.172+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T18:52:06.173+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T18:57:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T18:57:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T19:07:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T19:07:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T19:17:06.180+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T19:17:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T19:27:06.177+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T19:27:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T19:37:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T19:37:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T19:47:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T19:47:06.177+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T19:52:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T19:52:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T20:02:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T20:02:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T20:12:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T20:12:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T20:22:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T20:22:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T20:32:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T20:32:06.177+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T20:37:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T20:37:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T20:41:01.365+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:64272->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T20:41:01.448+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T20:41:01.478+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:64274->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T20:41:01.490+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=267;_ThreadName=Thread-jms[3];|[B1065]: Accepting: guest@127.0.0.1:64276->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T20:41:14.111+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=270;_ThreadName=Thread-jms[6];|[B1065]: Accepting: guest@127.0.0.1:64289->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T20:41:14.118+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1065]: Accepting: guest@127.0.0.1:64291->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:41:15.079+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=542;_ThreadName=Thread-jms[12];|[B1065]: Accepting: guest@127.0.0.1:64296->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T20:41:15.088+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=544;_ThreadName=Thread-jms[17];|[B1065]: Accepting: guest@127.0.0.1:64298->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T20:41:19.806+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=546;_ThreadName=Thread-jms[10];|[B1065]: Accepting: guest@127.0.0.1:64300->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T20:41:19.812+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=548;_ThreadName=Thread-jms[13];|[B1065]: Accepting: guest@127.0.0.1:64302->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T20:41:31.550+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:64272->jms:61645 because "java.net.SocketException: Connection reset". Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T20:41:31.561+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=548;_ThreadName=Thread-jms[13];|[B1066]:   Closing: guest@127.0.0.1:64302->jms:61645 because "java.net.SocketException: Connection reset". Count: service=6 broker=8
+|#]
+
+
+[#|2021-02-24T20:41:31.561+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=270;_ThreadName=Thread-jms[6];|[B1066]:   Closing: guest@127.0.0.1:64289->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T20:41:31.561+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1066]:   Closing: guest@127.0.0.1:64291->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T20:41:31.561+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=267;_ThreadName=Thread-jms[3];|[B1066]:   Closing: guest@127.0.0.1:64276->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:41:31.561+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=542;_ThreadName=Thread-jms[12];|[B1066]:   Closing: guest@127.0.0.1:64296->jms:61645 because "java.net.SocketException: Connection reset". Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T20:41:31.562+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=544;_ThreadName=Thread-jms[17];|[B1066]:   Closing: guest@127.0.0.1:64298->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T20:41:31.562+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:64274->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T20:41:31.562+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=546;_ThreadName=Thread-jms[10];|[B1066]:   Closing: guest@127.0.0.1:64300->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T20:43:31.554+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T20:43:31.554+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T20:43:31.554+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T20:43:31.554+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T20:44:12.028+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:64424->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T20:44:12.099+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T20:44:12.123+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1065]: Accepting: guest@127.0.0.1:64426->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T20:44:12.136+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:64428->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T20:44:20.174+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=268;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:64441->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T20:44:20.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:64443->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:44:21.004+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=580;_ThreadName=Thread-jms[16];|[B1065]: Accepting: guest@127.0.0.1:64445->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T20:44:21.013+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=582;_ThreadName=Thread-jms[17];|[B1065]: Accepting: guest@127.0.0.1:64447->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T20:44:25.309+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=584;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:64452->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T20:44:25.315+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=586;_ThreadName=Thread-jms[15];|[B1065]: Accepting: guest@127.0.0.1:64454->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T20:44:37.326+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=586;_ThreadName=Thread-jms[15];|[B1066]:   Closing: guest@127.0.0.1:64454->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T20:44:37.327+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=268;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:64441->jms:61645 because "java.net.SocketException: Connection reset". Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T20:44:37.327+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=584;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:64452->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T20:44:37.327+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:64443->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:44:37.327+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=580;_ThreadName=Thread-jms[16];|[B1066]:   Closing: guest@127.0.0.1:64445->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=7
+|#]
+
+
+[#|2021-02-24T20:44:37.327+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=582;_ThreadName=Thread-jms[17];|[B1066]:   Closing: guest@127.0.0.1:64447->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T20:44:37.327+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:64428->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T20:44:37.327+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:64424->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T20:44:37.329+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1066]:   Closing: guest@127.0.0.1:64426->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T20:45:31.860+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1065]: Accepting: guest@127.0.0.1:64518->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T20:45:31.954+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:64520->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T20:45:31.964+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:64522->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T20:45:40.476+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1065]: Accepting: guest@127.0.0.1:64535->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T20:45:40.484+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:64537->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:45:40.643+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=587;_ThreadName=Thread-jms[12];|[B1065]: Accepting: guest@127.0.0.1:64539->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T20:45:40.651+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=584;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:64541->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T20:45:45.216+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=581;_ThreadName=Thread-jms[11];|[B1065]: Accepting: guest@127.0.0.1:64543->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T20:45:45.223+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=582;_ThreadName=Thread-jms[17];|[B1065]: Accepting: guest@127.0.0.1:64545->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T20:45:57.007+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1066]:   Closing: guest@127.0.0.1:64518->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:64520->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=582;_ThreadName=Thread-jms[17];|[B1066]:   Closing: guest@127.0.0.1:64545->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=581;_ThreadName=Thread-jms[11];|[B1066]:   Closing: guest@127.0.0.1:64543->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=584;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:64541->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:64537->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=2
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1066]:   Closing: guest@127.0.0.1:64535->jms:61645 because "java.net.SocketException: Connection reset". Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=587;_ThreadName=Thread-jms[12];|[B1066]:   Closing: guest@127.0.0.1:64539->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T20:45:57.008+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:64522->jms:61645 because "java.net.SocketException: Connection reset". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T20:47:57.021+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T20:47:57.021+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T20:47:57.021+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T20:47:57.021+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T20:52:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T20:52:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T20:59:54.023+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:65048->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T20:59:54.090+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T20:59:54.112+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:65050->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T20:59:54.123+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:65052->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T21:00:07.232+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=267;_ThreadName=Thread-jms[3];|[B1065]: Accepting: guest@127.0.0.1:65068->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T21:00:07.239+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:65070->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T21:00:07.916+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=622;_ThreadName=Thread-jms[11];|[B1065]: Accepting: guest@127.0.0.1:65072->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T21:00:07.925+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=624;_ThreadName=Thread-jms[17];|[B1065]: Accepting: guest@127.0.0.1:65074->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T21:00:13.801+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=626;_ThreadName=Thread-jms[10];|[B1065]: Accepting: guest@127.0.0.1:65085->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T21:00:13.809+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=628;_ThreadName=Thread-jms[15];|[B1065]: Accepting: guest@127.0.0.1:65087->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T21:00:25.595+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=626;_ThreadName=Thread-jms[10];|[B1066]:   Closing: guest@127.0.0.1:65085->jms:61645 because "java.net.SocketException: Connection reset". Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T21:00:25.595+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:65048->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T21:00:25.595+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:65070->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=7
+|#]
+
+
+[#|2021-02-24T21:00:25.595+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=628;_ThreadName=Thread-jms[15];|[B1066]:   Closing: guest@127.0.0.1:65087->jms:61645 because "java.net.SocketException: Connection reset". Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T21:00:25.597+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=267;_ThreadName=Thread-jms[3];|[B1066]:   Closing: guest@127.0.0.1:65068->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T21:00:25.597+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=265;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:65052->jms:61645 because "java.net.SocketException: Connection reset". Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T21:00:25.596+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=622;_ThreadName=Thread-jms[11];|[B1066]:   Closing: guest@127.0.0.1:65072->jms:61645 because "java.net.SocketException: Connection reset". Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T21:00:25.596+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:65050->jms:61645 because "java.net.SocketException: Connection reset". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T21:00:25.597+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=624;_ThreadName=Thread-jms[17];|[B1066]:   Closing: guest@127.0.0.1:65074->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T21:00:53.577+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:65125->jms:61645. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T21:00:53.667+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=267;_ThreadName=Thread-jms[3];|[B1065]: Accepting: guest@127.0.0.1:65127->jms:61645. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-24T21:00:53.679+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:65129->jms:61645. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T21:01:02.019+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1065]: Accepting: guest@127.0.0.1:65142->jms:61645. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T21:01:02.028+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1065]: Accepting: guest@127.0.0.1:65144->jms:61645. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T21:01:02.934+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=629;_ThreadName=Thread-jms[12];|[B1065]: Accepting: guest@127.0.0.1:65146->jms:61645. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-24T21:01:02.941+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=627;_ThreadName=Thread-jms[13];|[B1065]: Accepting: guest@127.0.0.1:65148->jms:61645. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-24T21:01:07.986+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=625;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:65153->jms:61645. Count: service=8 broker=9
+|#]
+
+
+[#|2021-02-24T21:01:07.992+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=622;_ThreadName=Thread-jms[11];|[B1065]: Accepting: guest@127.0.0.1:65155->jms:61645. Count: service=9 broker=10
+|#]
+
+
+[#|2021-02-24T21:01:19.853+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:65129->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T21:01:19.855+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=629;_ThreadName=Thread-jms[12];|[B1066]:   Closing: guest@127.0.0.1:65146->jms:61645 because "java.net.SocketException: Connection reset". Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-24T21:01:19.855+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[7];|[B1066]:   Closing: guest@127.0.0.1:65144->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T21:01:19.855+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=622;_ThreadName=Thread-jms[11];|[B1066]:   Closing: guest@127.0.0.1:65155->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T21:01:19.854+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=627;_ThreadName=Thread-jms[13];|[B1066]:   Closing: guest@127.0.0.1:65148->jms:61645 because "java.net.SocketException: Connection reset". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T21:01:19.854+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=625;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:65153->jms:61645 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-24T21:01:19.853+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[9];|[B1066]:   Closing: guest@127.0.0.1:65142->jms:61645 because "java.net.SocketException: Connection reset". Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-24T21:01:19.855+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=267;_ThreadName=Thread-jms[3];|[B1066]:   Closing: guest@127.0.0.1:65127->jms:61645 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-24T21:01:19.855+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=264;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:65125->jms:61645 because "java.net.SocketException: Connection reset". Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-24T21:03:19.863+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-24T21:03:19.863+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-24T21:03:19.863+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-24T21:03:19.863+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=158;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-24T21:07:06.178+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:07:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T21:12:06.183+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:12:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T21:22:06.179+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:22:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T21:27:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:27:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T21:32:06.188+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:32:06.189+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T21:42:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:42:06.182+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T21:47:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:47:06.189+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T21:57:06.176+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T21:57:06.177+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T22:02:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T22:02:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T22:12:06.174+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T22:12:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T22:22:06.180+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T22:22:06.181+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T22:27:06.186+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T22:27:06.187+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-24T22:37:06.184+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-24T22:37:06.185+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+

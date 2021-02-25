@@ -1,0 +1,28 @@
+package cool.paul.fh.wortsuche.client.integration;
+
+import javax.jms.JMSException;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import cool.paul.fh.wortsuche.client.ServiceHandlerImpl;
+
+public class MapCreationTest {
+	static ServiceHandlerImpl handler;
+
+	@BeforeClass
+	public static void setup() {
+		handler = new ServiceHandlerImpl();
+	}
+
+	@Test
+	public void test_createmap() throws JMSException, InterruptedException {
+		handler.createNewMap(new String[] { //
+				"AHELLO", //
+				"DESFGN", //
+				"DSEFGN", //
+				"DSLFGN", //
+				"AAAAAA", //
+		});
+	}
+}

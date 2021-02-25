@@ -1,0 +1,14 @@
+package cool.paul.fh.wortsuche.client.integration;
+
+import org.junit.BeforeClass;
+
+import cool.paul.fh.wortsuche.client.ServiceHandlerImpl;
+
+public class MapCreationTest {
+	static ServiceHandlerImpl handler;
+
+	@BeforeClass
+	public static void setup() {
+		handler = new ServiceHandlerImpl();
+	}
+}

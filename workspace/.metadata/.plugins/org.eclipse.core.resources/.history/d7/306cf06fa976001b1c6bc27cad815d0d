@@ -1,0 +1,31 @@
+package cool.paul.fh.wortsuche;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import cool.paul.fh.wortsuche.common.beans.GameManagementLocal;
+import cool.paul.fh.wortsuche.common.beans.GameManagementRemote;
+import cool.paul.fh.wortsuche.common.entity.Player;
+
+@Stateless
+public class PlayerManagementBean implements GameManagementLocal, GameManagementRemote {
+
+	@PersistenceContext
+	private EntityManager entityManager;
+
+	@Override
+	public void deletePlayer(Player player) {
+		entityManager.remove(player);
+	}
+
+	@Override
+	public Player newPlayer(String name) {
+		Player player = new Player(name);
+
+		entityManager.persist(player);
+
+		return player;
+	}
+
+}

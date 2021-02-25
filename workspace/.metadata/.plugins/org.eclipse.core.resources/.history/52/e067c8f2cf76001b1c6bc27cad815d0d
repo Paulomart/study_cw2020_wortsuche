@@ -1,0 +1,33 @@
+package cool.paul.fh.wortsuche.common.beans;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.ejb.Local;
+import javax.persistence.TypedQuery;
+
+import cool.paul.fh.wortsuche.common.entity.Game;
+import cool.paul.fh.wortsuche.common.entity.GameState;
+import cool.paul.fh.wortsuche.common.entity.Map;
+import cool.paul.fh.wortsuche.common.exception.MapNotFoundException;
+
+@Local
+public interface MapManagementLocal extends MapManagement {
+
+	Game newGame(int mapId);
+
+
+
+
+	public Game updateGame(Game game) {
+		game = entityManager.merge(game);
+		entityManager.flush();
+		return game;
+	}
+
+	@Override
+	public void deleteGame(Game game) {
+		entityManager.remove(game);
+	}
+
+}

@@ -9,6 +9,7 @@ import javax.ejb.Timeout;
 import javax.ejb.Timer;
 import javax.ejb.TimerService;
 import javax.inject.Inject;
+import javax.interceptor.Interceptors;
 import javax.jms.JMSContext;
 import javax.jms.JMSException;
 import javax.jms.Message;
@@ -17,13 +18,14 @@ import javax.jms.Topic;
 import cool.paul.fh.wortsuche.common.beans.GameInstanceLocal;
 import cool.paul.fh.wortsuche.common.beans.GameInstanceRemote;
 import cool.paul.fh.wortsuche.common.beans.GameManagementLocal;
+import cool.paul.fh.wortsuche.common.beans.PlayerManagementLocal;
 import cool.paul.fh.wortsuche.common.entity.Game;
 import cool.paul.fh.wortsuche.common.entity.GameState;
+import cool.paul.fh.wortsuche.common.entity.Map;
 import cool.paul.fh.wortsuche.common.entity.Player;
 import cool.paul.fh.wortsuche.common.entity.SolvedWord;
 import cool.paul.fh.wortsuche.common.entity.Word;
 import cool.paul.fh.wortsuche.common.exception.GameAlreadyRunningException;
-import cool.paul.fh.wortsuche.common.exception.MapNotFoundException;
 import cool.paul.fh.wortsuche.common.exception.NoGameFoundException;
 import cool.paul.fh.wortsuche.common.exception.NotYourTurnException;
 import cool.paul.fh.wortsuche.common.exception.PlayerNotFoundException;
@@ -43,6 +45,8 @@ public class GameInstanceBean implements GameInstanceRemote, GameInstanceLocal {
 
 	@EJB
 	private GameManagementLocal gameManagement;
+	@EJB
+	private PlayerManagementLocal playerManagement;
 
 	private boolean resumeGame = false;
 	private Game game;
@@ -67,13 +71,13 @@ public class GameInstanceBean implements GameInstanceRemote, GameInstanceLocal {
 	}
 
 	@Override
-	public void newGame(int mapId) throws GameAlreadyRunningException, MapNotFoundException {
+	public void newGame(Map map) throws GameAlreadyRunningException {
 		if (game != null) {
 			throw new GameAlreadyRunningException();
 		}
 
 		resumeGame = false;
-		game = gameManagement.newGame(mapId);
+		game = gameManagement.newGame(map);
 	}
 
 	@Override
@@ -88,11 +92,11 @@ public class GameInstanceBean implements GameInstanceRemote, GameInstanceLocal {
 			if (player == null) {
 				throw new PlayerNotFoundException();
 			}
-			
+
 			return player;
 		}
 
-		Player player = gameManagement.newPlayer(name);
+		Player player = playerManagement.newPlayer(name);
 
 		game.getPlayers().add(player);
 		game = gameManagement.updateGame(game);
@@ -109,7 +113,7 @@ public class GameInstanceBean implements GameInstanceRemote, GameInstanceLocal {
 		}
 
 		game.getPlayers().remove(player);
-		gameManagement.deletePlayer(player);
+		playerManagement.deletePlayer(player);
 		game = gameManagement.updateGame(game);
 		notifyViaObserverTopic();
 	}
@@ -146,6 +150,7 @@ public class GameInstanceBean implements GameInstanceRemote, GameInstanceLocal {
 	}
 
 	@Override
+	@Interceptors({ IllegalExceptionDetector.class })
 	public String selectWord(Player player, int x1, int y1, int x2, int y2)
 			throws NotYourTurnException, WordAlreadySolvedException, NoGameFoundException {
 		if (game == null) {

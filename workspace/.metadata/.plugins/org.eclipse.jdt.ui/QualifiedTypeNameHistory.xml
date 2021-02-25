@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.GameLobbyRemote"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.GameManagementRemote"/>
-<fullyQualifiedTypeName name="javax.ejb.EJB"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.GameLobbyBean"/>
-<fullyQualifiedTypeName name="java.lang.IllegalStateException"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.GameLobbyLocal"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote"/>
-<fullyQualifiedTypeName name="javax.ejb.Stateless"/>
-<fullyQualifiedTypeName name="javax.ejb.Stateful"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.PlayerSessionLocal"/>
-<fullyQualifiedTypeName name="javax.ejb.Remote"/>
 <fullyQualifiedTypeName name="javax.ejb.Local"/>
 <fullyQualifiedTypeName name="javax.annotation.PreDestroy"/>
 <fullyQualifiedTypeName name="javax.ejb.Remove"/>
@@ -25,9 +13,6 @@
 <fullyQualifiedTypeName name="javax.ws.rs.GET"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
 <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.NotYourTurnException"/>
-<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.Player"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.client.ServiceHandlerImpl"/>
 <fullyQualifiedTypeName name="javax.ejb.Timeout"/>
 <fullyQualifiedTypeName name="javax.ejb.Timer"/>
@@ -37,21 +22,16 @@
 <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
 <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.PlayerNotFoundException"/>
 <fullyQualifiedTypeName name="org.junit.FixMethodOrder"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.WordAlreadySolvedException"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.client.AbstractTest"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.client.AbstractTwoPlayerTest"/>
-<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.Map"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.Word"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.SolvedWord"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.GameState"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.Game"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.PlayerSession"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.junit.Before"/>
@@ -60,4 +40,24 @@
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.MapNotFoundException"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
 <fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.NoGameFoundException"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.PlayerNotFoundException"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.PlayerAlreadyJoinedException"/>
+<fullyQualifiedTypeName name="java.util.concurrent.atomic.LongAccumulator"/>
+<fullyQualifiedTypeName name="javax.interceptor.AroundInvoke"/>
+<fullyQualifiedTypeName name="javax.interceptor.InvocationContext"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.exception.NotYourTurnException"/>
+<fullyQualifiedTypeName name="javax.interceptor.Interceptors"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.IllegalExceptionDetector"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.Player"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.PlayerManagementLocal"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.MapManagement"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.MapManagementRemote"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.entity.Map"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.client.TestHelper"/>
+<fullyQualifiedTypeName name="cool.paul.fh.wortsuche.common.beans.MapManagementLocal"/>
 </qualifiedTypeNameHistroy>

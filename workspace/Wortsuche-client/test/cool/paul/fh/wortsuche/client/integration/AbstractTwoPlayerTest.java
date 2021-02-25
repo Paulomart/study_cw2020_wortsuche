@@ -10,8 +10,8 @@ import cool.paul.fh.wortsuche.common.entity.Player;
 public abstract class AbstractTwoPlayerTest {
 
 	static CountDownLatch latch;
-	static ServiceHandlerImpl i1;
-	static ServiceHandlerImpl i2;
+	static ServiceHandlerImpl h1;
+	static ServiceHandlerImpl h2;
 	static Player p1;
 	static Player p2;
 
@@ -19,13 +19,13 @@ public abstract class AbstractTwoPlayerTest {
 	public static void setup() {
 		latch = new CountDownLatch(0);
 
-		i1 = new ServiceHandlerImpl();
-		i2 = new ServiceHandlerImpl();
+		h1 = new ServiceHandlerImpl();
+		h2 = new ServiceHandlerImpl();
 
-		i1.addObserver((o, arg) -> {
+		h1.addObserver((o, arg) -> {
 			latch.countDown();
 		});
-		i2.addObserver((o, arg) -> {
+		h2.addObserver((o, arg) -> {
 			latch.countDown();
 		});
 	}

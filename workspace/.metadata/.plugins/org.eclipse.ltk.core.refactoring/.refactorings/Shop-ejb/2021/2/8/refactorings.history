@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;StartupBean.java&apos; to &apos;Wortsuche-ejb/ejbModule/cool.paul.fh.wortsuche&apos;&#x0D;&#x0A;- Original project: &apos;Shop-ejb&apos;&#x0D;&#x0A;- Destination element: &apos;Wortsuche-ejb/ejbModule/cool.paul.fh.wortsuche&apos;&#x0D;&#x0A;- Original element: &apos;de.fh_dortmund.inf.cw.shop.server.beans.StartupBean.java&apos;" description="Copy compilation unit" destination="=Wortsuche-ejb/ejbModule&lt;cool.paul.fh.wortsuche" element1="/ejbModule&lt;de.fh_dortmund.inf.cw.shop.server.beans{StartupBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1614194125221" units="1" version="1.0"/>
+</session>

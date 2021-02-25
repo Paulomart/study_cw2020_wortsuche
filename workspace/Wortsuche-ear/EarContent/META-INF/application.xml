@@ -10,6 +10,12 @@
 	</module>
 
 	<jms-destination>
+		<name>java:global/jms/MapCreationQueue</name>
+		<interface-name>javax.jms.Queue</interface-name>
+		<destination-name>MapCreationQueue</destination-name>
+	</jms-destination>
+
+	<jms-destination>
 		<name>java:global/jms/GameStateUpdates</name>
 		<interface-name>javax.jms.Topic</interface-name>
 		<destination-name>GameStateUpdates</destination-name>

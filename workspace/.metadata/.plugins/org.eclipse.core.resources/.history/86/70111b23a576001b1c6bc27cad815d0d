@@ -1,0 +1,13 @@
+package cool.paul.fh.wortsuche;
+
+import javax.interceptor.AroundInvoke;
+import javax.interceptor.InvocationContext;
+
+public class IllegalExceptionDetector {
+
+	@AroundInvoke
+	public Object detectIllegalException(InvocationContext ctx) throws Exception {
+
+	}
+
+}

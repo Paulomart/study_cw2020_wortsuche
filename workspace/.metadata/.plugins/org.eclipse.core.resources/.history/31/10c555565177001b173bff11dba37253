@@ -1,0 +1,18 @@
+package cool.paul.fh.wortsuche.client.integration;
+
+import java.util.concurrent.CountDownLatch;
+
+import org.junit.BeforeClass;
+
+import cool.paul.fh.wortsuche.client.ServiceHandlerImpl;
+import cool.paul.fh.wortsuche.common.entity.Player;
+
+public class MapCreationTest {
+	static ServiceHandlerImpl handler;
+
+	@BeforeClass
+	public static void setup() {
+
+		handler = new ServiceHandlerImpl();
+	}
+}
