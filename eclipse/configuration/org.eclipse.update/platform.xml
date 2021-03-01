@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1613041996910" transient="false" version="3.0">
+<config date="1614248745385" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
 <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.14.4.v20181013-2146/" version="3.14.4.v20181013-2146">
 </feature>
 <feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.2.500.v20190307-0500/" version="2.2.500.v20190307-0500">
+</feature>
+<feature id="net.sourceforge.plantuml.lib.jlatexmath.feature" url="features/net.sourceforge.plantuml.lib.jlatexmath.feature_1.0.7/" version="1.0.7">
 </feature>
 <feature id="org.eclipse.tm.terminal.connector.ssh.feature" plugin-identifier="org.eclipse.tm.terminal.ssh" url="features/org.eclipse.tm.terminal.connector.ssh.feature_4.5.100.201903081602/" version="4.5.100.201903081602">
 </feature>
@@ -106,6 +108,8 @@
 <feature id="org.eclipse.egit.mylyn" plugin-identifier="org.eclipse.egit" url="features/org.eclipse.egit.mylyn_5.3.0.201903130848-r/" version="5.3.0.201903130848-r">
 </feature>
 <feature id="org.eclipse.sapphire.tests" url="features/org.eclipse.sapphire.tests_9.1.1.201712191343/" version="9.1.1.201712191343">
+</feature>
+<feature id="net.sourceforge.plantuml.lib.feature" url="features/net.sourceforge.plantuml.lib.feature_1.2019.11/" version="1.2019.11">
 </feature>
 <feature id="org.eclipse.datatools.enablement.sybase.feature" plugin-identifier="org.eclipse.datatools.enablement.sybase" url="features/org.eclipse.datatools.enablement.sybase.feature_1.14.101.201811012051/" version="1.14.101.201811012051">
 </feature>
@@ -227,6 +231,8 @@
 </feature>
 <feature id="org.eclipse.emf.edit" url="features/org.eclipse.emf.edit_2.14.0.v20180823-0456/" version="2.14.0.v20180823-0456">
 </feature>
+<feature id="net.sourceforge.plantuml.ecore.feature" url="features/net.sourceforge.plantuml.ecore.feature_1.1.24/" version="1.1.24">
+</feature>
 <feature id="org.eclipse.mylyn.commons" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons_3.24.2.v20180904-2231/" version="3.24.2.v20180904-2231">
 </feature>
 <feature id="org.eclipse.eclemma.feature" plugin-identifier="org.eclipse.eclemma.ui" url="features/org.eclipse.eclemma.feature_3.1.2.201903112331/" version="3.1.2.201903112331">
@@ -266,6 +272,8 @@
 <feature id="org.eclipse.datatools.connectivity.oda.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda" url="features/org.eclipse.datatools.connectivity.oda.feature_1.14.101.201811012051/" version="1.14.101.201811012051">
 </feature>
 <feature id="org.eclipse.cft.server.ui.feature" plugin-identifier="org.eclipse.cft.server.branding.ui" url="features/org.eclipse.cft.server.ui.feature_1.0.10.v201805291812/" version="1.0.10.v201805291812">
+</feature>
+<feature id="net.sourceforge.plantuml.feature" url="features/net.sourceforge.plantuml.feature_1.1.24/" version="1.1.24">
 </feature>
 <feature id="org.eclipse.wst.ws_core.feature" url="features/org.eclipse.wst.ws_core.feature_3.7.300.v201903050508/" version="3.7.300.v201903050508">
 </feature>

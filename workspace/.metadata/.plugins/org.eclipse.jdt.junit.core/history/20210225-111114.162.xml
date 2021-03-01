@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MapCreationTest" project="Wortsuche-client" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="cool.paul.fh.wortsuche.client.integration.MapCreationTest" time="0.004">
-    <testcase name="test_createNewMap_invalid_01" classname="cool.paul.fh.wortsuche.client.integration.MapCreationTest" time="0.0"/>
-    <testcase name="test_createNewMap_invalid_02" classname="cool.paul.fh.wortsuche.client.integration.MapCreationTest" time="0.0"/>
-    <testcase name="test_createNewMap" classname="cool.paul.fh.wortsuche.client.integration.MapCreationTest" time="0.004"/>
-  </testsuite>
-</testrun>

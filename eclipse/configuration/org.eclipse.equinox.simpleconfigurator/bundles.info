@@ -34,6 +34,13 @@ javax.xml.stream,1.0.1.v201004272200,plugins/javax.xml.stream_1.0.1.v20100427220
 javax.xml.ws,2.1.0.v200902101523,plugins/javax.xml.ws_2.1.0.v200902101523.jar,4,false
 net.i2p.crypto.eddsa,0.3.0.v20181102-1323,plugins/net.i2p.crypto.eddsa_0.3.0.v20181102-1323.jar,4,false
 net.sourceforge.lpg.lpgjavaruntime,1.1.0.v201004271650,plugins/net.sourceforge.lpg.lpgjavaruntime_1.1.0.v201004271650.jar,4,false
+net.sourceforge.plantuml.eclipse,1.1.24,plugins/net.sourceforge.plantuml.eclipse_1.1.24.jar,4,false
+net.sourceforge.plantuml.eclipse.imagecontrol,1.1.24,plugins/net.sourceforge.plantuml.eclipse.imagecontrol_1.1.24.jar,4,false
+net.sourceforge.plantuml.ecore,1.1.24,plugins/net.sourceforge.plantuml.ecore_1.1.24.jar,4,false
+net.sourceforge.plantuml.jdt,1.1.24,plugins/net.sourceforge.plantuml.jdt_1.1.24.jar,4,false
+net.sourceforge.plantuml.lib,1.2019.11,plugins/net.sourceforge.plantuml.lib_1.2019.11.jar,4,false
+net.sourceforge.plantuml.lib.jlatexmath,1.0.7,plugins/net.sourceforge.plantuml.lib.jlatexmath_1.0.7.jar,4,false
+net.sourceforge.plantuml.text,1.1.24,plugins/net.sourceforge.plantuml.text_1.1.24.jar,4,false
 org.apache.ant,1.10.5.v20180808-0324,plugins/org.apache.ant_1.10.5.v20180808-0324/,4,false
 org.apache.axis,1.4.0.v201411182030,plugins/org.apache.axis_1.4.0.v201411182030/,4,false
 org.apache.batik.constants,1.10.0.v20180703-1553,plugins/org.apache.batik.constants_1.10.0.v20180703-1553.jar,4,false

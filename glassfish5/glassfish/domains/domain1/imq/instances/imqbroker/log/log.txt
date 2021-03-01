@@ -13922,3 +13922,2159 @@ Java Runtime: 1.8.0_121 Oracle Corporation C:\Program Files\Java\jdk1.8.0_121\jr
 |#]
 
 
+[#|2021-02-25T10:08:17.402+0100|WARNING|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[S2004]: Log output channel com.sun.messaging.jmq.util.log.SysLogHandler is disabled: no imqutil in java.library.path|#]
+
+
+[#|2021-02-25T10:08:17.430+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|
+================================================================================
+Message Queue 5.1.3
+Oracle
+Version:  5.1.3  (Build 1-a)
+Compile:  January 27 2019 1625
+
+Copyright (c) 2013, 2018 Oracle and/or its affiliates.  All rights reserved.
+================================================================================
+Java Runtime: 1.8.0_121 Oracle Corporation C:\Program Files\Java\jdk1.8.0_121\jre
+|#]
+
+
+[#|2021-02-25T10:08:17.436+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|   IMQ_HOME=D:\componentware-stuff\glassfish5\mq
+|#]
+
+
+[#|2021-02-25T10:08:17.436+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|IMQ_VARHOME=D:\componentware-stuff\glassfish5\glassfish\domains\domain1\imq
+|#]
+
+
+[#|2021-02-25T10:08:21.963+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|Windows 10 10.0 amd64 PC-Paul (8 cpu) Admin
+|#]
+
+
+[#|2021-02-25T10:08:21.965+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|Java Heap Size: max=466432k, current=452096k
+|#]
+
+
+[#|2021-02-25T10:08:21.965+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|Arguments: -port 7676 -name imqbroker -nobind -imqhome D:\componentware-stuff\glassfish5\mq -varhome D:\componentware-stuff\glassfish5\glassfish\domains\domain1\imq -libhome D:\componentware-stuff\glassfish5\mq\lib -useRmiRegistry -rmiRegistryPort 8686 -save -silent
+|#]
+
+
+[#|2021-02-25T10:08:21.966+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|JMSRA BrokerProps: imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.service.activate=jmsdirect, imq.imqcmd.password=*****, imq.jmsra.managed=true, imq.cluster.nowaitForMasterBroker=true
+|#]
+
+
+[#|2021-02-25T10:08:21.966+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|Broker Properties: imq.service.activate=jmsdirect, imq.cluster.nowaitForMasterBroker=true, imq.jmx.rmiregistry.use=true, imq.portmapper.port=7676, imq.jmsra.managed=true, imq.instancename=imqbroker, java.util.logging.ConsoleHandler.level=OFF, imq.imqcmd.password=*****, imq.jmx.rmiregistry.port=8686, imq.service.runtimeAdd=mqdirect2, imq.cluster.dynamicChangeMasterBrokerEnabled=true, imq.jmx.rmiregistry.start=false, imq.portmapper.bind=false
+|#]
+
+
+[#|2021-02-25T10:08:21.966+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|Embedded Broker 
+|#]
+
+
+[#|2021-02-25T10:08:21.979+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1522]: Create thread pool portmapper for (8, 8)(60s) service
+|#]
+
+
+[#|2021-02-25T10:08:22.013+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|imq.persist.minimizeWrites=true
+|#]
+
+
+[#|2021-02-25T10:08:22.013+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|imq.persist.file.minimizeWrites=false
+|#]
+
+
+[#|2021-02-25T10:08:22.024+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1060]: Loading persistent data...
+|#]
+
+
+[#|2021-02-25T10:08:22.024+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|Using built-in file-based persistent store: D:\componentware-stuff\glassfish5\glassfish\domains\domain1\imq\instances\imqbroker\
+|#]
+
+
+[#|2021-02-25T10:08:22.277+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B2219]: Broker property setting imq.persist.minimizeWritesLevel2=true will be ignored
+|#]
+
+
+[#|2021-02-25T10:08:22.291+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1041]: Cluster initialization successful.
+|#]
+
+
+[#|2021-02-25T10:08:22.343+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1013]: Auto Creation of Queues is enabled
+|#]
+
+
+[#|2021-02-25T10:08:22.366+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|new transaction log enabled
+|#]
+
+
+[#|2021-02-25T10:08:22.366+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|sync writes to disk = false
+|#]
+
+
+[#|2021-02-25T10:08:22.367+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|logNonTransactedMsgSend = false
+|#]
+
+
+[#|2021-02-25T10:08:22.367+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|logNonTransactedMsgAck = false
+|#]
+
+
+[#|2021-02-25T10:08:22.367+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1392]: Opening transaction log with file mode rw, maximum size 10.485.760 bytes
+|#]
+
+
+[#|2021-02-25T10:08:22.393+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1270]: Processing messages from transaction log file...
+|#]
+
+
+[#|2021-02-25T10:08:22.393+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1434]: Retrieving stored destinations
+|#]
+
+
+[#|2021-02-25T10:08:22.395+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1503]: Retrieved 1 destinations from store
+|#]
+
+
+[#|2021-02-25T10:08:22.396+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1151]: Loading destination mq.sys.dmq [Queue] with 0 messages
+|#]
+
+
+[#|2021-02-25T10:08:22.397+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1152]: Loading of destination mq.sys.dmq [Queue] complete
+|#]
+
+
+[#|2021-02-25T10:08:22.415+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-25T10:08:22.518+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614163930721 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.518+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614163931244 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.519+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 3-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614163931700 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.519+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 4-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614163932580 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.519+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 5-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614163933394 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.519+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 6-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614163933876 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.520+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 7-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164456662 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.520+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 8-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164457095 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.520+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 9-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164457555 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.520+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 10-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164458001 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.521+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 11-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164458499 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.521+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 12-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164458730 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.521+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 13-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164458730 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.521+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 14-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164458905 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.521+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 15-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164459417 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.522+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 16-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164459608 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.522+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 17-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164459609 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.522+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 18-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614164459713 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.523+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 19-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614165530591 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.523+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 20-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614165530801 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.523+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 21-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614165531341 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.523+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 22-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614165531442 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.523+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 23-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167877377 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.524+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 24-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167877537 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.524+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 25-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167878345 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.524+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 26-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167878432 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.524+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 27-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167910259 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.524+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 28-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167910381 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.525+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 29-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167910900 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.525+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 30-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167911000 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.525+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 31-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167990148 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.525+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 32-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167990273 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.525+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 33-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167990785 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.526+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 34-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614167990865 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.526+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 35-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614168810225 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.526+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 36-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614168810344 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.526+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 37-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614168810827 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.527+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 38-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614168810904 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.527+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 39-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614168811419 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.527+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 40-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614168811508 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.528+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 41-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614170220840 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.528+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 65-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171659587 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.528+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 68-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171659747 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.528+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 71-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171659879 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.529+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 72-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171659880 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.529+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 77-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171664603 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.529+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 80-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171664778 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.529+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 83-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171664852 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.529+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 86-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171665297 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.530+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 89-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171665701 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.530+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 92-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171666154 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.530+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 95-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171666580 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.530+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 98-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171667069 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.530+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 101-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171667529 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.531+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 104-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171667654 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.531+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 105-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171667655 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.531+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 110-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171667729 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.531+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 113-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171668204 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.532+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 116-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171668331 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.532+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 117-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171668331 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.532+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 122-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171668440 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.532+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 143-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171669173 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.532+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 148-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171669260 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.533+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 171-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171669847 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.533+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 178-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171669983 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.533+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 185-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171670140 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.533+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 186-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171670141 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.534+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 199-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171670300 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.534+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 206-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171670452 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.534+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 213-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171670533 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.534+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 220-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171671044 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.535+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 227-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171671120 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.535+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 234-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171671645 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.535+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 241-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171671729 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.535+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 248-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171672291 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.536+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 255-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171672379 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.536+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 262-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171672777 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.536+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 287-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171673304 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.536+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 296-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171673442 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.537+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 305-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171673572 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.537+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 306-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171673573 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.537+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 323-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171683560 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.537+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 332-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614171684158 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.538+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 364-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172080647 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.538+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 367-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172080793 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.538+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 370-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172080895 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.538+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 371-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172080896 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.538+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 376-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172085615 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.539+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 379-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172085795 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.539+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 382-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172085869 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.539+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 385-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172086541 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.540+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 388-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172086940 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.540+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 391-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172087367 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.540+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 394-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172087785 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.540+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 397-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172088240 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.541+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 400-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172088358 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.541+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 401-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172088359 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.541+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 406-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172088430 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.541+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 409-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172088902 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.542+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 412-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172089032 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.542+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 413-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172089033 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.542+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 418-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172089146 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.542+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 439-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172090051 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.543+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 444-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172090163 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.543+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 467-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172090733 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.543+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 474-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172091003 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.544+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 481-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172091133 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.544+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 482-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172091134 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.544+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 495-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172091336 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.545+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 502-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172091495 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.545+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 509-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172091567 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.545+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 516-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172092087 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.546+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 523-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172092164 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.546+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 530-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172092820 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.546+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 537-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172092897 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.547+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 544-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172093408 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.547+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 551-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172093540 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.547+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 558-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172093935 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.547+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 583-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172094399 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.547+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 592-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172094552 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.547+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 601-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172094682 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.547+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 602-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172094682 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.548+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 619-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172104673 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.548+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 628-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614172105290 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.548+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 660-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614174160702 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.548+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 663-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614174160848 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.549+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 666-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614174160958 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.549+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 667-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614174160959 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.549+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 672-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614174165762 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.549+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 675-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614174165990 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.549+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 678-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614174166063 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.549+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 704-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175665075 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.550+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 707-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175665209 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.550+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 710-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175665311 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.550+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 711-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175665311 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.550+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 716-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175670055 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.550+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 719-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175670239 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.550+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 722-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175670344 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.551+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 725-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175671331 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.551+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 728-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175671797 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.551+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 731-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175672208 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.551+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 734-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175672621 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.551+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 737-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673088 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.551+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 740-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673202 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 741-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673203 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 746-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673271 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 749-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673736 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 752-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673881 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 753-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673882 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 758-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175673954 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 779-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175674756 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.552+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 784-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175674879 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.553+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 807-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175675655 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.553+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 814-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175675861 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.553+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 821-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175676074 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.553+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 822-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175676074 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.553+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 835-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175676461 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.553+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 842-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175676772 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.553+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 849-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175676866 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.554+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 856-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175677846 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.554+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 863-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175677954 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.554+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 870-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175678551 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.554+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 877-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175678663 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.554+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 884-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175679150 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.554+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 891-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175679231 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.554+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 898-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175679607 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.555+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 923-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175680291 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.555+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 932-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175680427 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.555+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 941-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175680540 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.555+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 942-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175680540 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.555+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 959-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175690544 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.556+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 968-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614175691129 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.556+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1000-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195670951 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.556+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1003-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195671166 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.556+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1006-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195671305 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.556+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1007-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195671306 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.556+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1012-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195671540 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.556+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1015-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195671705 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.557+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1018-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195671783 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.557+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1021-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195672250 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.557+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1024-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195672575 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.557+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1027-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195672907 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.557+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1030-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195673242 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.557+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1033-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195673555 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.558+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1036-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195673896 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.558+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1057-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195674602 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.558+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1062-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195674695 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.558+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1085-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195675326 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.558+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1092-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195675501 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.558+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1099-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195675644 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.558+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1100-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195675645 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.559+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1113-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195675843 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.559+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1120-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195676096 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.559+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1127-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195676300 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.559+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1134-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195676461 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.559+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1141-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195676627 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.559+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1148-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195676817 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.560+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1155-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195676992 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.560+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1162-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195677198 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.560+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1169-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195677352 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.560+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1176-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195677507 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.560+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1183-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195677693 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.560+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1190-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195677781 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.561+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1197-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195678565 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.561+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1204-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195678964 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.561+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1211-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195679292 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.561+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1218-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195679635 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.561+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1243-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195680028 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.562+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1252-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195680157 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.562+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1261-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195680271 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.562+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1262-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195680272 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.562+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1279-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195690325 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.563+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1288-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195690851 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.563+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1320-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195857067 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.563+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1323-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195857226 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.563+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1326-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195857358 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.563+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1327-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195857358 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.564+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1332-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195857554 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.564+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1335-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195857736 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.564+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1338-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195857816 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.564+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1341-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195858312 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.564+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1344-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195858638 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.565+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1347-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195859012 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.565+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1350-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195859338 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.565+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1353-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195859647 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.565+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1356-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195860004 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.566+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1377-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195860605 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.566+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1382-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195860736 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.566+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1405-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195861279 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.566+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1412-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195861418 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.566+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1419-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195861531 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.566+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1420-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195861531 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.566+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1433-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195861686 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.567+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1440-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195861845 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.567+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1447-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195862004 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.567+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1454-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195862164 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.567+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1461-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195862325 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.567+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1468-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195862486 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.567+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1475-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195862642 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.568+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1482-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195862807 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.568+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1489-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195862974 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.568+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1496-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195863149 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.568+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1503-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195863405 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.568+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1510-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195863490 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.568+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1517-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195864126 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.568+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1524-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195864483 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.569+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1531-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195864793 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.569+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1538-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195865144 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.569+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1563-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195865532 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.569+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1572-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195865666 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.569+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1581-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195865833 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.569+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1582-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195865834 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.569+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1599-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195875818 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.570+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1608-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195876482 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.570+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1640-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195936923 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.570+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1643-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195937081 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.570+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1646-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195937260 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.570+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1647-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195937261 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.571+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1652-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195937533 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.571+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1655-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195937822 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.571+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1658-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195937910 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.571+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1661-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195938372 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.571+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1664-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195938664 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.571+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1667-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195938932 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.571+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1670-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195939212 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.572+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1673-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195939520 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.572+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1676-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195939632 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.572+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1677-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195939633 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.572+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1682-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195939702 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.572+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1685-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195940105 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.572+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1688-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195940215 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.572+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1689-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195940215 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1694-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195940285 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1733-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195940826 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1740-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195940963 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1747-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195941108 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1748-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195941108 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1761-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195941311 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1768-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195941517 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.573+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1775-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195941710 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.574+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1782-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195941907 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.574+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1789-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195942099 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.576+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1796-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195942274 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.576+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1803-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195942520 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.577+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1810-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195942733 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.577+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1817-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195942951 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.577+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1824-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195943101 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.577+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1831-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195943342 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.577+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1838-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195943448 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.577+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1845-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195944062 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.577+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1852-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195944136 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1859-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195944461 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1866-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195944569 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1873-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195944945 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1880-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195945013 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1905-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195945436 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1914-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195945568 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1923-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195945727 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.578+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1924-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195945727 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1941-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195955704 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1950-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614195956336 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1982-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196803464 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1985-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196803663 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1988-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196803804 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1989-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196803804 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1994-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196803992 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.579+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 1997-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196804168 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.580+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2000-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196804273 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.580+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2003-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196804747 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.580+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2006-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196805079 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.580+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2009-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196805442 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.580+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2012-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196805797 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.580+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2015-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806141 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.580+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2018-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806270 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2019-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806270 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2024-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806348 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2027-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806723 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2030-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806892 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2031-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806892 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2036-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196806965 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2057-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196807659 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.581+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2080-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196808106 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2087-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196808250 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2094-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196808399 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2095-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196808399 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2108-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196808578 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2115-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196808769 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2122-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196808929 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2129-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196809129 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.582+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2136-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196809373 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.583+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2143-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196809530 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.583+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2150-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196809690 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.583+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2157-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196809849 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.583+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2164-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196810020 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.583+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2171-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196810181 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.583+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2178-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196810338 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.583+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2185-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196810412 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.584+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2192-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196810974 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.584+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2199-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196811412 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.584+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2206-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196811507 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.584+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2213-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196811951 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.584+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2220-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196812074 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.584+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2227-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196812539 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.584+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2234-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196812625 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.585+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2259-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196814012 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.585+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2268-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196814186 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.585+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2277-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196814336 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.585+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2278-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196814336 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.585+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2295-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196824346 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.586+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2304-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196824931 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.586+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2336-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196858492 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.586+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2339-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196858648 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.586+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2342-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196858765 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.586+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2343-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196858765 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.587+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2348-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196858926 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.587+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2351-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196859102 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.587+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2354-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196859174 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.587+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2357-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196859631 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.587+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2360-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196859911 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.588+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2363-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196860199 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.588+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2366-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196860538 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.588+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2369-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196860965 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.588+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2372-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196861081 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.588+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2373-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196861081 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.589+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2378-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196861152 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.589+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2381-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196861563 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.589+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2384-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196861719 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.589+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2385-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196861719 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.589+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2390-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196861795 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.589+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2411-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196862461 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.590+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2416-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196862559 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.590+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2439-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196863167 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.590+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2446-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196863335 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.590+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2453-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196863460 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.590+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2454-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196863460 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.590+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2467-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196863629 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.591+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2474-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196863775 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.591+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2481-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196864054 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.591+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2488-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196864215 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.591+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2495-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196864383 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.591+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2502-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196864534 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.592+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2509-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196864704 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.592+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2516-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196864874 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.592+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2523-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196865049 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.592+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2530-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196865224 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.592+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2537-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196865478 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.592+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2544-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196865589 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2551-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196866263 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2558-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196866643 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2565-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196866735 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2572-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196867104 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2579-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196867185 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2586-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196867563 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2593-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196867679 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.593+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2618-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196868178 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.594+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2627-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196868318 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.594+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2636-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196868453 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.594+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2637-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196868453 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.594+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2654-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196878472 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.594+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1277]: Reconstruct message 2663-192.168.218.2(e4:3f:52:9e:bc:39)-1-1614196879161 for destination GameStateUpdates [Topic] [reroute]
+|#]
+
+
+[#|2021-02-25T10:08:22.619+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1136]: Processing stored transactions
+|#]
+
+
+[#|2021-02-25T10:08:22.619+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1390]: Loading of transactions has been successfully completed
+|#]
+
+
+[#|2021-02-25T10:08:22.642+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1239]: Using platform MBean server
+|#]
+
+
+[#|2021-02-25T10:08:22.661+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1234]: JMX Connector Server jmxrmi started successfully with url service:jmx:rmi://PC-Paul/jndi/rmi://PC-Paul:8686/PC-Paul/7676/jmxrmi
+|#]
+
+
+[#|2021-02-25T10:08:22.723+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1004]: Starting the admin service using tcp(host = *, port=0, mode=dedicated) with min threads 4 and max threads of 10 
+|#]
+
+
+[#|2021-02-25T10:08:22.724+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1227]: Using file user repository for admin service connection authentication
+|#]
+
+
+[#|2021-02-25T10:08:22.733+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1004]: Starting the jms service using tcp(host = *, port=0, mode=dedicated) with min threads 10 and max threads of 1000 
+|#]
+
+
+[#|2021-02-25T10:08:22.733+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1227]: Using file user repository for jms service connection authentication
+|#]
+
+
+[#|2021-02-25T10:08:22.735+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1004]: Starting the mqdirect2 service using in-process connections with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2021-02-25T10:08:22.735+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1227]: Using file user repository for mqdirect2 service connection authentication
+|#]
+
+
+[#|2021-02-25T10:08:22.736+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1004]: Starting the jmsdirect service using  with min threads 0 and max threads of 0 
+|#]
+
+
+[#|2021-02-25T10:08:22.736+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1227]: Using file user repository for jmsdirect service connection authentication
+|#]
+
+
+[#|2021-02-25T10:08:22.749+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1004]: Starting the cluster service using tcp [ 0.0.0.0/0.0.0.0:50808 ] with min threads 1 and max threads of 1 
+|#]
+
+
+[#|2021-02-25T10:08:22.749+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1228]: Cluster ping interval is 60 seconds
+|#]
+
+
+[#|2021-02-25T10:08:22.752+0100|FORCE|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1039]: Broker "imqbroker@PC-Paul:7676" ready.
+|#]
+
+
+[#|2021-02-25T10:08:22.877+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-25T10:08:27.453+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=54;_ThreadName=admin-listener(5);|[B1132]: Auto-creating destination MapCreationQueue [Queue] 
+|#]
+
+
+[#|2021-02-25T10:08:32.472+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=172;_ThreadName=__ejb-thread-pool1;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-25T10:09:35.709+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=50;_ThreadName=admin-listener(1);|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-25T10:56:11.271+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=222;_ThreadName=__ejb-thread-pool10;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=0 broker=0
+|#]
+
+
+[#|2021-02-25T10:56:22.745+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=51;_ThreadName=admin-listener(2);|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-25T10:58:55.667+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:61155->jms:50806. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-25T10:58:55.970+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[2];|[B1065]: Accepting: guest@127.0.0.1:61157->jms:50806. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-25T10:58:55.987+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:61159->jms:50806. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-25T10:59:01.331+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=275;_ThreadName=Thread-jms[6];|[B1065]: Accepting: guest@127.0.0.1:61164->jms:50806. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-25T10:59:01.345+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=277;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:61166->jms:50806. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-25T10:59:01.908+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:61159->jms:50806 because "java.net.SocketException: Connection reset". Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-25T10:59:01.908+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=271;_ThreadName=Thread-jms[2];|[B1066]:   Closing: guest@127.0.0.1:61157->jms:50806 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-25T10:59:01.908+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=275;_ThreadName=Thread-jms[6];|[B1066]:   Closing: guest@127.0.0.1:61164->jms:50806 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-25T10:59:01.908+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=277;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:61166->jms:50806 because "java.net.SocketException: Connection reset". Count: service=0 broker=1
+|#]
+
+
+[#|2021-02-25T10:59:01.908+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:61155->jms:50806 because "java.net.SocketException: Connection reset". Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-25T10:59:24.953+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:61195->jms:50806. Count: service=1 broker=2
+|#]
+
+
+[#|2021-02-25T10:59:25.092+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=275;_ThreadName=Thread-jms[6];|[B1065]: Accepting: guest@127.0.0.1:61197->jms:50806. Count: service=2 broker=3
+|#]
+
+
+[#|2021-02-25T10:59:25.104+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[4];|[B1065]: Accepting: guest@127.0.0.1:61199->jms:50806. Count: service=3 broker=4
+|#]
+
+
+[#|2021-02-25T10:59:30.242+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[3];|[B1065]: Accepting: guest@127.0.0.1:61204->jms:50806. Count: service=4 broker=5
+|#]
+
+
+[#|2021-02-25T10:59:30.254+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=270;_ThreadName=Thread-jms[1];|[B1065]: Accepting: guest@127.0.0.1:61206->jms:50806. Count: service=5 broker=6
+|#]
+
+
+[#|2021-02-25T10:59:30.425+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=279;_ThreadName=Thread-jms[10];|[B1065]: Accepting: guest@127.0.0.1:61208->jms:50806. Count: service=6 broker=7
+|#]
+
+
+[#|2021-02-25T10:59:30.436+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=281;_ThreadName=Thread-jms[12];|[B1065]: Accepting: guest@127.0.0.1:61210->jms:50806. Count: service=7 broker=8
+|#]
+
+
+[#|2021-02-25T10:59:35.402+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=66;_ThreadName=p: thread-pool-1; w: 2;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=2 broker=9
+|#]
+
+
+[#|2021-02-25T10:59:43.300+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=284;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:61223->jms:50806. Count: service=8 broker=10
+|#]
+
+
+[#|2021-02-25T10:59:43.315+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=286;_ThreadName=Thread-jms[16];|[B1065]: Accepting: guest@127.0.0.1:61225->jms:50806. Count: service=9 broker=11
+|#]
+
+
+[#|2021-02-25T10:59:44.101+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=288;_ThreadName=Thread-jms[18];|[B1065]: Accepting: guest@127.0.0.1:61230->jms:50806. Count: service=10 broker=12
+|#]
+
+
+[#|2021-02-25T10:59:44.110+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=290;_ThreadName=Thread-jms[20];|[B1065]: Accepting: guest@127.0.0.1:61232->jms:50806. Count: service=11 broker=13
+|#]
+
+
+[#|2021-02-25T10:59:48.474+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=292;_ThreadName=Thread-jms[22];|[B1065]: Accepting: guest@127.0.0.1:61234->jms:50806. Count: service=12 broker=14
+|#]
+
+
+[#|2021-02-25T10:59:48.482+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=294;_ThreadName=Thread-jms[24];|[B1065]: Accepting: guest@127.0.0.1:61236->jms:50806. Count: service=13 broker=15
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=294;_ThreadName=Thread-jms[24];|[B1066]:   Closing: guest@127.0.0.1:61236->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=12 broker=14
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=272;_ThreadName=Thread-jms[3];|[B1066]:   Closing: guest@127.0.0.1:61204->jms:50806 because "java.net.SocketException: Connection reset". Count: service=9 broker=11
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:61195->jms:50806 because "java.net.SocketException: Connection reset". Count: service=10 broker=12
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=273;_ThreadName=Thread-jms[4];|[B1066]:   Closing: guest@127.0.0.1:61199->jms:50806 because "java.net.SocketException: Connection reset". Count: service=10 broker=13
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=275;_ThreadName=Thread-jms[6];|[B1066]:   Closing: guest@127.0.0.1:61197->jms:50806 because "java.net.SocketException: Connection reset". Count: service=8 broker=10
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=290;_ThreadName=Thread-jms[20];|[B1066]:   Closing: guest@127.0.0.1:61232->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=7
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=284;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:61223->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=7
+|#]
+
+
+[#|2021-02-25T11:00:00.204+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=270;_ThreadName=Thread-jms[1];|[B1066]:   Closing: guest@127.0.0.1:61206->jms:50806 because "java.net.SocketException: Connection reset". Count: service=3 broker=5
+|#]
+
+
+[#|2021-02-25T11:00:00.203+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=292;_ThreadName=Thread-jms[22];|[B1066]:   Closing: guest@127.0.0.1:61234->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=5 broker=7
+|#]
+
+
+[#|2021-02-25T11:00:00.204+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=279;_ThreadName=Thread-jms[10];|[B1066]:   Closing: guest@127.0.0.1:61208->jms:50806 because "java.net.SocketException: Connection reset". Count: service=3 broker=5
+|#]
+
+
+[#|2021-02-25T11:00:00.204+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=288;_ThreadName=Thread-jms[18];|[B1066]:   Closing: guest@127.0.0.1:61230->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=2 broker=4
+|#]
+
+
+[#|2021-02-25T11:00:00.205+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=286;_ThreadName=Thread-jms[16];|[B1066]:   Closing: guest@127.0.0.1:61225->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=3
+|#]
+
+
+[#|2021-02-25T11:00:00.205+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=281;_ThreadName=Thread-jms[12];|[B1066]:   Closing: guest@127.0.0.1:61210->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=2
+|#]
+
+
+[#|2021-02-25T11:02:00.205+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-25T11:02:00.205+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-25T11:02:00.205+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-25T11:02:00.242+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-25T11:09:35.406+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-25T11:09:35.409+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=2 broker=2
+|#]
+
+
+[#|2021-02-25T11:10:11.878+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:61619->jms:50806. Count: service=1 broker=3
+|#]
+
+
+[#|2021-02-25T11:10:11.954+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-25T11:10:12.490+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:61619->jms:50806 because "java.net.SocketException: Connection reset". Count: service=0 broker=2
+|#]
+
+
+[#|2021-02-25T11:10:43.102+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:61654->jms:50806. Count: service=1 broker=3
+|#]
+
+
+[#|2021-02-25T11:10:43.692+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:61654->jms:50806 because "java.net.SocketException: Connection reset". Count: service=0 broker=2
+|#]
+
+
+[#|2021-02-25T11:11:14.071+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:61686->jms:50806. Count: service=1 broker=3
+|#]
+
+
+[#|2021-02-25T11:11:14.660+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:61686->jms:50806 because "java.net.SocketException: Connection reset". Count: service=0 broker=2
+|#]
+
+
+[#|2021-02-25T11:13:14.667+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-25T11:13:14.667+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-25T11:13:14.668+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-25T11:13:14.668+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-25T11:15:07.600+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1065]: Accepting: guest@127.0.0.1:61845->jms:50806. Count: service=1 broker=3
+|#]
+
+
+[#|2021-02-25T11:15:08.232+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=275;_ThreadName=Thread-jms[6];|[B1065]: Accepting: guest@127.0.0.1:61847->jms:50806. Count: service=2 broker=4
+|#]
+
+
+[#|2021-02-25T11:15:08.246+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=278;_ThreadName=Thread-jms[9];|[B1065]: Accepting: guest@127.0.0.1:61849->jms:50806. Count: service=3 broker=5
+|#]
+
+
+[#|2021-02-25T11:15:13.398+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[0];|[B1065]: Accepting: guest@127.0.0.1:61854->jms:50806. Count: service=4 broker=6
+|#]
+
+
+[#|2021-02-25T11:15:13.410+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=277;_ThreadName=Thread-jms[8];|[B1065]: Accepting: guest@127.0.0.1:61856->jms:50806. Count: service=5 broker=7
+|#]
+
+
+[#|2021-02-25T11:15:13.531+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=277;_ThreadName=Thread-jms[8];|[B1132]: Auto-creating destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-25T11:15:13.574+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=302;_ThreadName=Thread-jms[24];|[B1065]: Accepting: guest@127.0.0.1:61858->jms:50806. Count: service=6 broker=8
+|#]
+
+
+[#|2021-02-25T11:15:13.586+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=304;_ThreadName=Thread-jms[25];|[B1065]: Accepting: guest@127.0.0.1:61860->jms:50806. Count: service=7 broker=9
+|#]
+
+
+[#|2021-02-25T11:15:26.356+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=306;_ThreadName=Thread-jms[22];|[B1065]: Accepting: guest@127.0.0.1:61876->jms:50806. Count: service=8 broker=10
+|#]
+
+
+[#|2021-02-25T11:15:26.366+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=308;_ThreadName=Thread-jms[15];|[B1065]: Accepting: guest@127.0.0.1:61878->jms:50806. Count: service=9 broker=11
+|#]
+
+
+[#|2021-02-25T11:15:27.147+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=310;_ThreadName=Thread-jms[14];|[B1065]: Accepting: guest@127.0.0.1:61880->jms:50806. Count: service=10 broker=12
+|#]
+
+
+[#|2021-02-25T11:15:27.156+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=312;_ThreadName=Thread-jms[17];|[B1065]: Accepting: guest@127.0.0.1:61882->jms:50806. Count: service=11 broker=13
+|#]
+
+
+[#|2021-02-25T11:15:31.720+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=314;_ThreadName=Thread-jms[21];|[B1065]: Accepting: guest@127.0.0.1:61887->jms:50806. Count: service=12 broker=14
+|#]
+
+
+[#|2021-02-25T11:15:31.728+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=316;_ThreadName=Thread-jms[23];|[B1065]: Accepting: guest@127.0.0.1:61889->jms:50806. Count: service=13 broker=15
+|#]
+
+
+[#|2021-02-25T11:15:43.655+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=306;_ThreadName=Thread-jms[22];|[B1066]:   Closing: guest@127.0.0.1:61876->jms:50806 because "java.net.SocketException: Connection reset". Count: service=12 broker=14
+|#]
+
+
+[#|2021-02-25T11:15:43.656+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=274;_ThreadName=Thread-jms[5];|[B1066]:   Closing: guest@127.0.0.1:61845->jms:50806 because "java.net.SocketException: Connection reset". Count: service=10 broker=12
+|#]
+
+
+[#|2021-02-25T11:15:43.656+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=278;_ThreadName=Thread-jms[9];|[B1066]:   Closing: guest@127.0.0.1:61849->jms:50806 because "java.net.SocketException: Connection reset". Count: service=10 broker=12
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=275;_ThreadName=Thread-jms[6];|[B1066]:   Closing: guest@127.0.0.1:61847->jms:50806 because "java.net.SocketException: Connection reset". Count: service=8 broker=10
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=269;_ThreadName=Thread-jms[0];|[B1066]:   Closing: guest@127.0.0.1:61854->jms:50806 because "java.net.SocketException: Connection reset". Count: service=8 broker=10
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=304;_ThreadName=Thread-jms[25];|[B1066]:   Closing: guest@127.0.0.1:61860->jms:50806 because "java.net.SocketException: Connection reset". Count: service=6 broker=8
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=316;_ThreadName=Thread-jms[23];|[B1066]:   Closing: guest@127.0.0.1:61889->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=6 broker=8
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=277;_ThreadName=Thread-jms[8];|[B1066]:   Closing: guest@127.0.0.1:61856->jms:50806 because "java.net.SocketException: Connection reset". Count: service=4 broker=6
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=312;_ThreadName=Thread-jms[17];|[B1066]:   Closing: guest@127.0.0.1:61882->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=4 broker=6
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=310;_ThreadName=Thread-jms[14];|[B1066]:   Closing: guest@127.0.0.1:61880->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=3 broker=5
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=302;_ThreadName=Thread-jms[24];|[B1066]:   Closing: guest@127.0.0.1:61858->jms:50806 because "java.net.SocketException: Connection reset". Count: service=1 broker=3
+|#]
+
+
+[#|2021-02-25T11:15:43.657+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=308;_ThreadName=Thread-jms[15];|[B1066]:   Closing: guest@127.0.0.1:61878->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=1 broker=3
+|#]
+
+
+[#|2021-02-25T11:15:43.659+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=314;_ThreadName=Thread-jms[21];|[B1066]:   Closing: guest@127.0.0.1:61887->jms:50806 because "java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed". Count: service=0 broker=2
+|#]
+
+
+[#|2021-02-25T11:17:43.666+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1130]: Destroying auto-created destination GameStateUpdates [Topic] inactive for 120 seconds
+|#]
+
+
+[#|2021-02-25T11:17:43.666+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1517]: Destroying destination GameStateUpdates [Topic] 
+|#]
+
+
+[#|2021-02-25T11:17:43.666+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1387]: Purged 0 messages from destination GameStateUpdates [Topic]
+|#]
+
+
+[#|2021-02-25T11:17:43.666+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=157;_ThreadName=MQTimer-Thread;|[B1159]: Destination GameStateUpdates [Topic] has been destroyed
+|#]
+
+
+[#|2021-02-25T11:24:35.408+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1066]:   Closing: guest@192.168.218.2:0->jmsdirect:0 because "[B0059]: Client closed the connection". Count: service=1 broker=1
+|#]
+
+
+[#|2021-02-25T11:24:35.409+0100|INFO|5.1.3|imq.log.Logger|_ThreadID=89;_ThreadName=connector-timer-proxy;|[B1065]: Accepting: guest@192.168.218.2:0->jmsdirect:0. Count: service=2 broker=2
+|#]
+
+
