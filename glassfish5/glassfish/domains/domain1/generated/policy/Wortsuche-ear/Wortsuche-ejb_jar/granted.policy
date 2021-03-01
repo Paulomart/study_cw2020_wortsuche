@@ -1,4 +1,4 @@
-/* AUTOMATICALLY GENERATED ON Thu Feb 25 10:56:27 CET 2021*/
+/* AUTOMATICALLY GENERATED ON Mon Mar 01 22:06:34 CET 2021*/
 /* DO NOT EDIT */
 
 grant {
@@ -29,16 +29,16 @@ grant {
   permission javax.security.jacc.EJBMethodPermission "GameManagementBean", "$$createGameForTesting,Remote,cool.paul.fh.wortsuche.common.entity.Game";
   permission javax.security.jacc.EJBMethodPermission "GameManagementBean", "deleteGame,Local,cool.paul.fh.wortsuche.common.entity.Game";
   permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "stop,Local,";
-  permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "selectWord,Local,cool.paul.fh.wortsuche.common.entity.Player,int,int,int,int";
   permission javax.security.jacc.EJBMethodPermission "PlayerManagementBean", "newPlayer,Local,java.lang.String";
+  permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "selectWord,Local,cool.paul.fh.wortsuche.common.entity.Player,int,int,int,int";
 };
 
 grant      principal * * {
   permission javax.security.jacc.EJBRoleRefPermission "GameManagementBean", "**";
   permission javax.security.jacc.EJBRoleRefPermission "MapManagementBean", "**";
   permission javax.security.jacc.EJBRoleRefPermission "GameInstanceBean", "**";
-  permission javax.security.jacc.EJBRoleRefPermission "MapCreationQueueBean", "**";
   permission javax.security.jacc.EJBRoleRefPermission "PlayerManagementBean", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "MapCreationQueueBean", "**";
   permission javax.security.jacc.EJBRoleRefPermission "MapSeederBean", "**";
   permission javax.security.jacc.EJBRoleRefPermission "PlayerSessionBean", "**";
 };

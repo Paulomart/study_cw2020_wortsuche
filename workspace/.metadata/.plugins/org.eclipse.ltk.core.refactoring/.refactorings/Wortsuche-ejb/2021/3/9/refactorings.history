@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;textMessage&apos; in &apos;cool.paul.fh.wortsuche.MapCreationQueueBean.onMessage(...)&apos; to &apos;objectMessage&apos;&#x0D;&#x0A;- Original project: &apos;Wortsuche-ejb&apos;&#x0D;&#x0A;- Original element: &apos;cool.paul.fh.wortsuche.MapCreationQueueBean.onMessage(Message).textMessage&apos;&#x0D;&#x0A;- Renamed element: &apos;textMessage&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;textMessage&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/ejbModule&lt;cool.paul.fh.wortsuche{MapCreationQueueBean.java[MapCreationQueueBean~onMessage~QMessage;@textMessage!835!884!849!859!QObjectMessage;!0!false" name="objectMessage" references="true" stamp="1614632681656" version="1.0"/>
+</session>

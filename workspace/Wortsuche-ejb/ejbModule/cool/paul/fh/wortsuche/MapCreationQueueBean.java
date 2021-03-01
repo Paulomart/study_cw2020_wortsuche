@@ -1,14 +1,17 @@
 package cool.paul.fh.wortsuche;
 
+import java.util.List;
+
 import javax.ejb.ActivationConfigProperty;
 import javax.ejb.EJB;
 import javax.ejb.MessageDriven;
 import javax.jms.Message;
 import javax.jms.MessageListener;
-import javax.jms.TextMessage;
+import javax.jms.ObjectMessage;
 
 import cool.paul.fh.wortsuche.common.beans.MapManagementLocal;
 import cool.paul.fh.wortsuche.common.entity.Map;
+import cool.paul.fh.wortsuche.common.entity.Word;
 
 @MessageDriven(mappedName = "java:global/jms/MapCreationQueue", activationConfig = {
 		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue") })
@@ -18,13 +21,14 @@ public class MapCreationQueueBean implements MessageListener {
 	private MapManagementLocal mapManagement;
 
 	@Override
+	@SuppressWarnings("unchecked")
 	public void onMessage(Message message) {
 		try {
-			TextMessage textMessage = (TextMessage) message;
+			ObjectMessage objectMessage = (ObjectMessage) message;
 
-			int width = textMessage.getIntProperty("width");
+			int width = objectMessage.getIntProperty("width");
 
-			String rawText = textMessage.getText();
+			String rawText = objectMessage.getStringProperty("map");
 
 			int height = rawText.length() / width;
 
@@ -33,7 +37,17 @@ public class MapCreationQueueBean implements MessageListener {
 				rows[i] = rawText.substring(i * width, (i + 1) * width);
 			}
 
-			Map map = mapManagement.fromArray(rows);
+			List<Word> words = (List<Word>) objectMessage.getBody(List.class);
+			int[] coords = new int[words.size() * 4];
+
+			for (int i = 0; i < words.size(); i += 4) {
+				coords[i + 0] = words.get(i).getX1();
+				coords[i + 1] = words.get(i).getY1();
+				coords[i + 2] = words.get(i).getX2();
+				coords[i + 3] = words.get(i).getY2();
+			}
+
+			Map map = mapManagement.fromArray(rows, coords);
 
 			System.out.println("creating map " + map);
 

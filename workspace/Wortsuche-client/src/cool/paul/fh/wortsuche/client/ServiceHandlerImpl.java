@@ -1,5 +1,6 @@
 package cool.paul.fh.wortsuche.client;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 import java.util.stream.Collectors;
@@ -10,8 +11,8 @@ import javax.jms.JMSContext;
 import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
+import javax.jms.ObjectMessage;
 import javax.jms.Queue;
-import javax.jms.TextMessage;
 import javax.jms.Topic;
 import javax.naming.Context;
 import javax.naming.InitialContext;
@@ -23,6 +24,7 @@ import cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote;
 import cool.paul.fh.wortsuche.common.entity.Game;
 import cool.paul.fh.wortsuche.common.entity.Map;
 import cool.paul.fh.wortsuche.common.entity.Player;
+import cool.paul.fh.wortsuche.common.entity.Word;
 import cool.paul.fh.wortsuche.common.exception.GameAlreadyRunningException;
 import cool.paul.fh.wortsuche.common.exception.NoGameFoundException;
 import cool.paul.fh.wortsuche.common.exception.NotYourTurnException;
@@ -83,8 +85,10 @@ public class ServiceHandlerImpl extends Observable implements MessageListener {
 		notifyObservers(arg0);
 	}
 
-	public void createNewMap(String[] rows) throws JMSException {
+	public void createNewMap(String[] rows, List<Word> words) throws JMSException {
 		int width = rows[0].length();
+		int height = rows.length;
+
 		for (int i = 0; i < rows.length; i++) {
 			if (rows[i].length() != width) {
 				throw new IllegalArgumentException(
@@ -92,13 +96,28 @@ public class ServiceHandlerImpl extends Observable implements MessageListener {
 			}
 		}
 
+		for (Word word : words) {
+			if (word.getX1() >= width || word.getX1() < 0) {
+				throw new IllegalArgumentException(word + " has illegal x1 coordinate " + word.getX1());
+			}
+			if (word.getX2() >= width || word.getX2() < 0) {
+				throw new IllegalArgumentException(word + " has illegal x2 coordinate " + word.getX2());
+			}
+			if (word.getY1() >= height || word.getY1() < 0) {
+				throw new IllegalArgumentException(word + " has illegal y1 coordinate " + word.getY1());
+			}
+			if (word.getY2() >= height || word.getY2() < 0) {
+				throw new IllegalArgumentException(word + " has illegal y2 coordinate " + word.getY2());
+			}
+		}
+
 		String joined = Stream.of(rows).collect(Collectors.joining());
 
-		TextMessage textMessage = jmsContext.createTextMessage();
-		textMessage.setIntProperty("width", width);
-		textMessage.setText(joined);
+		ObjectMessage objectMessage = jmsContext.createObjectMessage(new ArrayList<>(words));
+		objectMessage.setIntProperty("width", width);
+		objectMessage.setStringProperty("map", joined);
 
-		jmsContext.createProducer().send(mapCreationQueue, textMessage);
+		jmsContext.createProducer().send(mapCreationQueue, objectMessage);
 	}
 
 	public Player join(String name) throws NoGameFoundException, PlayerNotFoundException, PlayerAlreadyJoinedException {

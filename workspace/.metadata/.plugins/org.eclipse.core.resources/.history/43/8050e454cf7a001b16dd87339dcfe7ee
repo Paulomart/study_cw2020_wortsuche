@@ -1,0 +1,44 @@
+package cool.paul.fh.wortsuche;
+
+import javax.ejb.ActivationConfigProperty;
+import javax.ejb.EJB;
+import javax.ejb.MessageDriven;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+import javax.jms.TextMessage;
+
+import cool.paul.fh.wortsuche.common.beans.MapManagementLocal;
+import cool.paul.fh.wortsuche.common.entity.Map;
+
+@MessageDriven(mappedName = "java:global/jms/MapCreationQueue", activationConfig = {
+		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue") })
+public class MapCreationQueueBean implements MessageListener {
+
+	@EJB
+	private MapManagementLocal mapManagement;
+
+	@Override
+	public void onMessage(Message message) {
+		try {
+			TextMessage textMessage = (TextMessage) message;
+
+			int width = textMessage.getIntProperty("width");
+
+			String rawText = textMessage.getText();
+
+			int height = rawText.length() / width;
+
+			String[] rows = new String[height];
+			for (int i = 0; i < rows.length; i++) {
+				rows[i] = rawText.substring(i * width, (i + 1) * width);
+			}
+
+			Map map = mapManagement.fromArray(rows);
+
+			System.out.println("creating map " + map);
+
+		} catch (Exception ex) {
+			System.err.println("Error while process customer request: " + ex.getMessage());
+		}
+	}
+}

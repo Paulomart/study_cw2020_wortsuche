@@ -16973,3 +16973,726 @@ Caused by: java.lang.IllegalStateException: During synchronization a new object 
 [2021-02-25T11:15:23.691+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=69 _ThreadName=Thread-8] [timeMillis: 1614248123691] [levelValue: 800] [[
   Eins did an illegal move.]]
 
+[2021-03-01T21:25:32.746+0100] [glassfish 5.1] [INFO] [NCLS-LOGGING-00009] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1614630332316] [timeMillis: 1614630332746] [levelValue: 800] [[
+  Running GlassFish Version: GlassFish Server Open Source Edition  5.1.0  (build default-private)]]
+
+[2021-03-01T21:25:32.747+0100] [glassfish 5.1] [INFO] [NCLS-LOGGING-00010] [javax.enterprise.logging] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1614630332316] [timeMillis: 1614630332747] [levelValue: 800] [[
+  Server log file is using Formatter class: com.sun.enterprise.server.logging.ODLLogFormatter]]
+
+[2021-03-01T21:25:33.282+0100] [glassfish 5.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1614630332316] [timeMillis: 1614630333282] [levelValue: 800] [[
+  Realm [admin-realm] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-03-01T21:25:33.304+0100] [glassfish 5.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1614630332316] [timeMillis: 1614630333304] [levelValue: 800] [[
+  Realm [file] of classtype [com.sun.enterprise.security.auth.realm.file.FileRealm] successfully created.]]
+
+[2021-03-01T21:25:33.310+0100] [glassfish 5.1] [INFO] [NCLS-SECURITY-01115] [javax.enterprise.system.core.security] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1614630332316] [timeMillis: 1614630333310] [levelValue: 800] [[
+  Realm [certificate] of classtype [com.sun.enterprise.security.auth.realm.certificate.CertificateRealm] successfully created.]]
+
+[2021-03-01T21:25:33.436+0100] [glassfish 5.1] [INFO] [] [org.glassfish.ha.store.spi.BackingStoreFactoryRegistry] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1614630332312] [timeMillis: 1614630333436] [levelValue: 800] [[
+  Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry]]
+
+[2021-03-01T21:25:33.478+0100] [glassfish 5.1] [INFO] [SEC-SVCS-00100] [javax.enterprise.security.services] [tid: _ThreadID=27 _ThreadName=RunLevelControllerThread-1614630332316] [timeMillis: 1614630333478] [levelValue: 800] [[
+  Authorization Service has successfully initialized.]]
+
+[2021-03-01T21:25:33.654+0100] [glassfish 5.1] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630333654] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [100]]]
+
+[2021-03-01T21:25:33.678+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630333678] [levelValue: 800] [[
+  Grizzly Framework 2.4.4 started in: 26ms - bound to [/0.0.0.0:8080]]]
+
+[2021-03-01T21:25:33.712+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630333712] [levelValue: 800] [[
+  Grizzly Framework 2.4.4 started in: 1ms - bound to [/0.0.0.0:8181]]]
+
+[2021-03-01T21:25:33.717+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=29 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630333717] [levelValue: 800] [[
+  Grizzly Framework 2.4.4 started in: 1ms - bound to [/0.0.0.0:4848]]]
+
+[2021-03-01T21:25:33.778+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=26 _ThreadName=RunLevelControllerThread-1614630332312] [timeMillis: 1614630333778] [levelValue: 800] [[
+  Grizzly Framework 2.4.4 started in: 1ms - bound to [/0.0.0.0:3700]]]
+
+[2021-03-01T21:25:33.949+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630333949] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:34.921+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630334921] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:35.722+0100] [glassfish 5.1] [INFO] [NCLS-SECURITY-01002] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630335722] [levelValue: 800] [[
+  Java security manager is disabled.]]
+
+[2021-03-01T21:25:35.723+0100] [glassfish 5.1] [INFO] [NCLS-SECURITY-01010] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630335723] [levelValue: 800] [[
+  Entering Security Startup Service.]]
+
+[2021-03-01T21:25:35.725+0100] [glassfish 5.1] [INFO] [NCLS-SECURITY-01143] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630335725] [levelValue: 800] [[
+  Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.]]
+
+[2021-03-01T21:25:35.748+0100] [glassfish 5.1] [INFO] [NCLS-SECURITY-01011] [javax.enterprise.system.core.security] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630335748] [levelValue: 800] [[
+  Security Service(s) started successfully.]]
+
+[2021-03-01T21:25:35.973+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbcruntime] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630335973] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:25:36.019+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630336019] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:36.269+0100] [glassfish 5.1] [INFO] [] [org.hibernate.validator.internal.util.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630336269] [levelValue: 800] [[
+  HV000001: Hibernate Validator 6.0.10.Final]]
+
+[2021-03-01T21:25:36.544+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630336544] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:25:38.993+0100] [glassfish 5.1] [INFO] [jts.startup_msg] [javax.enterprise.system.core.transaction.com.sun.jts.CosTransactions] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630338993] [levelValue: 800] [[
+  JTS5014: Recoverable JTS instance, serverId = [3700]]]
+
+[2021-03-01T21:25:39.332+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339332] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Player actually got transformed]]
+
+[2021-03-01T21:25:39.486+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339486] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementLocal]]]
+
+[2021-03-01T21:25:39.486+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339486] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerManagementBean: [cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote#cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote]]]
+
+[2021-03-01T21:25:39.551+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339551] [levelValue: 800] [[
+  Portable JNDI names for EJB MapSeederBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean!cool.paul.fh.wortsuche.seeder.MapSeederBean, java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean]]]
+
+[2021-03-01T21:25:39.580+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339580] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Map actually got transformed]]
+
+[2021-03-01T21:25:39.642+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339642] [levelValue: 800] [[
+  Portable JNDI names for EJB MapManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T21:25:39.642+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339642] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB MapManagementBean: [cool.paul.fh.wortsuche.common.beans.MapManagementRemote, cool.paul.fh.wortsuche.common.beans.MapManagementRemote#cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T21:25:39.661+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339661] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Game actually got transformed]]
+
+[2021-03-01T21:25:39.681+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339681] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Word actually got transformed]]
+
+[2021-03-01T21:25:39.685+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339685] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.SolvedWord actually got transformed]]
+
+[2021-03-01T21:25:39.721+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.persistent.timer] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339721] [levelValue: 800] [[
+  Loading EJBTimerService. Please wait.]]
+
+[2021-03-01T21:25:39.856+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630339856] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:40.127+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340127] [levelValue: 800] [[
+  Created HTTP listener http-listener-1 on host/port 0.0.0.0:8080]]
+
+[2021-03-01T21:25:40.133+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340133] [levelValue: 800] [[
+  Created HTTP listener http-listener-2 on host/port 0.0.0.0:8181]]
+
+[2021-03-01T21:25:40.135+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00198] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340135] [levelValue: 800] [[
+  Created HTTP listener admin-listener on host/port 0.0.0.0:4848]]
+
+[2021-03-01T21:25:40.151+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340151] [levelValue: 800] [[
+  Created virtual server server]]
+
+[2021-03-01T21:25:40.153+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00200] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340153] [levelValue: 800] [[
+  Created virtual server __asadmin]]
+
+[2021-03-01T21:25:40.282+0100] [glassfish 5.1] [INFO] [AS-WEB-CORE-00306] [javax.enterprise.web.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340282] [levelValue: 800] [[
+  Setting JAAS app name glassfish-web]]
+
+[2021-03-01T21:25:40.283+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00201] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340283] [levelValue: 800] [[
+  Virtual server server loaded default web module ]]
+
+[2021-03-01T21:25:40.796+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340796] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:40.834+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340834] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:40.847+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340847] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:40.935+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.dol] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630340935] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:25:41.438+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630341438] [levelValue: 800] [[
+  Portable JNDI names for EJB TimerBean: [java:global/ejb-timer-service-app/TimerBean, java:global/ejb-timer-service-app/TimerBean!org.glassfish.ejb.persistent.timer.TimerLocal]]]
+
+[2021-03-01T21:25:41.536+0100] [glassfish 5.1] [INFO] [AS-WEB-GLUE-00172] [javax.enterprise.web] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630341536] [levelValue: 800] [[
+  Loading application [ejb-timer-service-app] at [/ejb-timer-service-app]]]
+
+[2021-03-01T21:25:41.560+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.persistent.timer] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630341560] [levelValue: 800] [[
+  ejb.timer_service_started]]
+
+[2021-03-01T21:25:41.560+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.persistent.timer] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630341560] [levelValue: 800] [[
+  ==> Restoring Timers ... ]]
+
+[2021-03-01T21:25:41.635+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/applications/ejb-timer-service-app/WEB-INF/classes/___EJB__Timer__App] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630341635] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.4.v20190115-ad5b7c6b2a]]
+
+[2021-03-01T21:25:43.133+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/applications/ejb-timer-service-app/WEB-INF/classes/___EJB__Timer__App.connection] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630343133] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/applications/ejb-timer-service-app/WEB-INF/classes/___EJB__Timer__App login successful]]
+
+[2021-03-01T21:25:43.297+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.persistent.timer] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630343297] [levelValue: 800] [[
+  There are no EJB Timers owned by this server]]
+
+[2021-03-01T21:25:43.298+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.persistent.timer] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630343298] [levelValue: 800] [[
+  <== ... Timers Restored.]]
+
+[2021-03-01T21:25:43.312+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630343312] [levelValue: 800] [[
+  Portable JNDI names for EJB GameInstanceBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T21:25:43.312+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630343312] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameInstanceBean: [cool.paul.fh.wortsuche.common.beans.GameInstanceRemote, cool.paul.fh.wortsuche.common.beans.GameInstanceRemote#cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T21:25:43.465+0100] [glassfish 5.1] [INFO] [AS-JMS-CORE-00002] [javax.enterprise.resource.jms] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630343465] [levelValue: 800] [[
+  ADDRESSLIST in setJmsServiceProvider : mq://localhost:7676/]]
+
+[2021-03-01T21:25:43.466+0100] [glassfish 5.1] [INFO] [AS-JMS-CORE-00001] [javax.enterprise.resource.jms] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630343466] [levelValue: 800] [[
+  JMS Service Connection URL is : mq://localhost:7676/]]
+
+[2021-03-01T21:25:48.096+0100] [glassfish 5.1] [INFO] [NCLS-JMX-00005] [javax.enterprise.system.jmx] [tid: _ThreadID=93 _ThreadName=Thread-29] [timeMillis: 1614630348096] [levelValue: 800] [[
+  JMXStartupService has started JMXConnector on JMXService URL service:jmx:rmi://PC-Paul:8686/jndi/rmi://PC-Paul:8686/jmxrmi]]
+
+[2021-03-01T21:25:52.699+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00087] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630352699] [levelValue: 800] [[
+  Grizzly Framework 2.4.4 started in: 2ms - bound to [/0.0.0.0:7676]]]
+
+[2021-03-01T21:25:52.701+0100] [glassfish 5.1] [INFO] [] [javax.resourceadapter.mqjmsra.lifecycle] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630352701] [levelValue: 800] [[
+  MQJMSRA_RA1101: GlassFish MQ JMS Resource Adapter: Version:  5.1.3  (Build 1-a) Compile:  January 27 2019 1625]]
+
+[2021-03-01T21:25:52.701+0100] [glassfish 5.1] [INFO] [] [javax.resourceadapter.mqjmsra.lifecycle] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630352701] [levelValue: 800] [[
+  MQJMSRA_RA1101: GlassFish MQ JMS Resource Adapter starting: broker is EMBEDDED, connection mode is Direct]]
+
+[2021-03-01T21:25:53.781+0100] [glassfish 5.1] [INFO] [] [javax.resourceadapter.mqjmsra.lifecycle] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630353781] [levelValue: 800] [[
+  MQJMSRA_RA1101: GlassFish MQ JMS Resource Adapter Started:EMBEDDED]]
+
+[2021-03-01T21:25:58.501+0100] [glassfish 5.1] [INFO] [] [org.glassfish.ha.store.adapter.file.FileBackingStore] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630358501] [levelValue: 800] [[
+  [FileBackingStore::initialize] Successfully Created and initialized store. Working dir: D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105791099618328582; Configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105791099618328582-BackingStore', shortUniqueName='105791099618328582', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105791099618328582', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@74652a54}}]]
+
+[2021-03-01T21:25:58.502+0100] [glassfish 5.1] [INFO] [AS-EJB-00043] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630358502] [levelValue: 800] [[
+  StatefulContainerbuilder instantiated store: org.glassfish.ha.store.adapter.file.FileBackingStore@4135492d, with ha-enabled [false], and backing store configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105791099618328582-BackingStore', shortUniqueName='105791099618328582', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105791099618328582', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@74652a54}}]]
+
+[2021-03-01T21:25:58.512+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630358512] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerSessionBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionLocal, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T21:25:58.513+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630358513] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerSessionBean: [cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote#cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote, cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T21:25:58.532+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630358532] [levelValue: 800] [[
+  Portable JNDI names for EJB GameManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T21:25:58.532+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630358532] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameManagementBean: [cool.paul.fh.wortsuche.common.beans.GameManagementRemote#cool.paul.fh.wortsuche.common.beans.GameManagementRemote, cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T21:25:58.606+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Version] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630358606] [levelValue: 800] [[
+  WELD-000900: 3.0.0 (Final)]]
+
+[2021-03-01T21:25:59.099+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359099] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:25:59.105+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359105] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:25:59.117+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359117] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:25:59.136+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359136] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:25:59.479+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359479] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.484+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359484] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.503+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359503] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.534+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359534] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.542+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359542] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.544+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359544] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.544+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359544] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.545+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359545] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.546+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359546] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.547+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359547] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.548+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359548] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.557+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359557] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:25:59.558+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630359558] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:00.103+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630360103] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Selection actually got transformed]]
+
+[2021-03-01T21:26:00.120+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630360120] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.4.v20190115-ad5b7c6b2a]]
+
+[2021-03-01T21:26:05.323+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB.connection] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630365323] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB login successful]]
+
+[2021-03-01T21:26:06.460+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00022] [javax.enterprise.system.core] [tid: _ThreadID=28 _ThreadName=RunLevelControllerThread-1614630332342] [timeMillis: 1614630366460] [levelValue: 800] [[
+  Loading application Wortsuche-ear done in 32.932 ms]]
+
+[2021-03-01T21:26:06.461+0100] [glassfish 5.1] [INFO] [NCLS-CORE-00017] [javax.enterprise.system.core] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1614630366461] [levelValue: 800] [[
+  GlassFish Server Open Source Edition  5.1.0  (default-private) startup time : Felix (24.234ms), startup services(34.154ms), total(58.388ms)]]
+
+[2021-03-01T21:26:06.511+0100] [glassfish 5.1] [INFO] [NCLS-BOOTSTRAP-00027] [javax.enterprise.bootstrap] [tid: _ThreadID=1 _ThreadName=main] [timeMillis: 1614630366511] [levelValue: 800] [[
+  Registered com.sun.enterprise.glassfish.bootstrap.osgi.EmbeddedOSGiGlassFishImpl@11841b15 as OSGi service registration: org.apache.felix.framework.ServiceRegistrationImpl@73877e19.]]
+
+[2021-03-01T21:26:09.579+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.startup] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630369579] [levelValue: 800] [[
+  keepstate options resolved to true, saving appId 105791099618328576 for application Wortsuche-ear.]]
+
+[2021-03-01T21:26:09.657+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB.connection] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630369657] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB logout successful]]
+
+[2021-03-01T21:26:09.672+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbcruntime] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630369672] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:26:09.672+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630369672] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:26:12.543+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.startup] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630372543] [levelValue: 800] [[
+  Timers will not be destroyed since keepstate is true for application Wortsuche-ear]]
+
+[2021-03-01T21:26:12.699+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630372699] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:26:12.765+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630372765] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:26:12.929+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630372929] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:26:13.021+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630373021] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Map actually got transformed]]
+
+[2021-03-01T21:26:13.025+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630373025] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.SolvedWord actually got transformed]]
+
+[2021-03-01T21:26:13.028+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630373028] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Word actually got transformed]]
+
+[2021-03-01T21:26:13.030+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630373030] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Player actually got transformed]]
+
+[2021-03-01T21:26:13.032+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630373032] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Game actually got transformed]]
+
+[2021-03-01T21:26:13.042+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630373042] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.4.v20190115-ad5b7c6b2a]]
+
+[2021-03-01T21:26:18.092+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB.connection] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630378092] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB login successful]]
+
+[2021-03-01T21:26:21.202+0100] [glassfish 5.1] [WARNING] [] [javax.org.glassfish.persistence.org.glassfish.persistence.common] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630381202] [levelValue: 900] [[
+  PER01000: Got SQLException executing statement "CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT DECIMAL(38), PRIMARY KEY (SEQ_NAME))": java.sql.SQLSyntaxErrorException: Table 'SEQUENCE' already exists]]
+
+[2021-03-01T21:26:21.322+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630381322] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementLocal]]]
+
+[2021-03-01T21:26:21.323+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630381323] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerManagementBean: [cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote#cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote]]]
+
+[2021-03-01T21:26:21.343+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630381343] [levelValue: 800] [[
+  Portable JNDI names for EJB GameManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T21:26:21.344+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630381344] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameManagementBean: [cool.paul.fh.wortsuche.common.beans.GameManagementRemote#cool.paul.fh.wortsuche.common.beans.GameManagementRemote, cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T21:26:25.884+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385884] [levelValue: 800] [[
+  Portable JNDI names for EJB MapSeederBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean!cool.paul.fh.wortsuche.seeder.MapSeederBean, java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean]]]
+
+[2021-03-01T21:26:25.902+0100] [glassfish 5.1] [INFO] [] [org.glassfish.ha.store.adapter.file.FileBackingStore] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385902] [levelValue: 800] [[
+  [FileBackingStore::initialize] Successfully Created and initialized store. Working dir: D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105791099618328582; Configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105791099618328582-BackingStore', shortUniqueName='105791099618328582', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105791099618328582', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@727dd6b2}}]]
+
+[2021-03-01T21:26:25.902+0100] [glassfish 5.1] [INFO] [AS-EJB-00043] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385902] [levelValue: 800] [[
+  StatefulContainerbuilder instantiated store: org.glassfish.ha.store.adapter.file.FileBackingStore@7a6eba30, with ha-enabled [false], and backing store configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105791099618328582-BackingStore', shortUniqueName='105791099618328582', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105791099618328582', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@727dd6b2}}]]
+
+[2021-03-01T21:26:25.910+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385910] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerSessionBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionLocal, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T21:26:25.910+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385910] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerSessionBean: [cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote#cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote, cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T21:26:25.935+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385935] [levelValue: 800] [[
+  Portable JNDI names for EJB GameInstanceBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T21:26:25.935+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385935] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameInstanceBean: [cool.paul.fh.wortsuche.common.beans.GameInstanceRemote, cool.paul.fh.wortsuche.common.beans.GameInstanceRemote#cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T21:26:25.955+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385955] [levelValue: 800] [[
+  Portable JNDI names for EJB MapManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T21:26:25.956+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630385956] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB MapManagementBean: [cool.paul.fh.wortsuche.common.beans.MapManagementRemote, cool.paul.fh.wortsuche.common.beans.MapManagementRemote#cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T21:26:26.007+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386007] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:26:26.010+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386010] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:26:26.013+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386013] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:26:26.018+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386018] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:26:26.020+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386020] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.021+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386021] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.022+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386022] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.022+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386022] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.023+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386023] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.023+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386023] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.024+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386024] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.025+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386025] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.025+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386025] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.030+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386030] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.030+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386030] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.031+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386031] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.032+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386032] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:26:26.161+0100] [glassfish 5.1] [INFO] [AS-EJB-00060] [javax.enterprise.ejb.container] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630386161] [levelValue: 800] [[
+  keepstate is true and will not create new auto timers during deployment.]]
+
+[2021-03-01T21:26:29.232+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=55 _ThreadName=admin-listener(4)] [timeMillis: 1614630389232] [levelValue: 800] [[
+  Wortsuche-ear was successfully deployed in 19.691 milliseconds.]]
+
+[2021-03-01T21:29:43.308+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=65 _ThreadName=Thread-8] [timeMillis: 1614630583308] [levelValue: 800] [[
+  creating map Map [id=16, width=6, height=5, characters=AHELLODESFGNDSEFGNDSLFGNAAAAAA, words=[]]]]
+
+[2021-03-01T21:29:43.310+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=67 _ThreadName=Thread-8] [timeMillis: 1614630583310] [levelValue: 800] [[
+  creating map Map [id=17, width=6, height=5, characters=AHELLODESFGNDSEFGNDSLFGNAAAAAA, words=[]]]]
+
+[2021-03-01T21:40:51.226+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=175 _ThreadName=Thread-8] [timeMillis: 1614631251226] [levelValue: 800] [[
+  creating map Map [id=18, width=6, height=5, characters=AHELLODESFGNDSEFGNDSLFGNAAAAAA, words=[]]]]
+
+[2021-03-01T21:40:51.231+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=67 _ThreadName=Thread-8] [timeMillis: 1614631251231] [levelValue: 800] [[
+  creating map Map [id=19, width=6, height=5, characters=AHELLODESFGNDSEFGNDSLFGNAAAAAA, words=[]]]]
+
+[2021-03-01T21:41:32.170+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=67 _ThreadName=Thread-8] [timeMillis: 1614631292170] [levelValue: 800] [[
+  creating map Map [id=20, width=6, height=5, characters=AHELLODESFGNDSEFGNDSLFGNAAAAAA, words=[]]]]
+
+[2021-03-01T21:50:53.538+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=65 _ThreadName=Thread-8] [timeMillis: 1614631853538] [levelValue: 800] [[
+  creating map Map [id=21, width=6, height=5, characters=AHELLODESFGNDSEFGNDSLFGNAAAAAA, words=[]]]]
+
+[2021-03-01T21:52:17.471+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB.connection] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631937471] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB logout successful]]
+
+[2021-03-01T21:52:17.474+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbcruntime] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631937474] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:52:17.474+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631937474] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:52:18.589+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.persistent.timer] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631938589] [levelValue: 800] [[
+  No timers to be deleted for id: 105791099618328576]]
+
+[2021-03-01T21:52:31.637+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951637] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:52:31.687+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951687] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T21:52:31.729+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951729] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T21:52:31.804+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951804] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Map actually got transformed]]
+
+[2021-03-01T21:52:31.807+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951807] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.SolvedWord actually got transformed]]
+
+[2021-03-01T21:52:31.810+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951810] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Word actually got transformed]]
+
+[2021-03-01T21:52:31.812+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951812] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Player actually got transformed]]
+
+[2021-03-01T21:52:31.814+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951814] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Game actually got transformed]]
+
+[2021-03-01T21:52:31.824+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631951824] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.4.v20190115-ad5b7c6b2a]]
+
+[2021-03-01T21:52:33.503+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB.connection] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631953503] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB login successful]]
+
+[2021-03-01T21:52:35.172+0100] [glassfish 5.1] [WARNING] [] [javax.org.glassfish.persistence.org.glassfish.persistence.common] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955172] [levelValue: 900] [[
+  PER01000: Got SQLException executing statement "CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT DECIMAL(38), PRIMARY KEY (SEQ_NAME))": java.sql.SQLSyntaxErrorException: Table 'SEQUENCE' already exists]]
+
+[2021-03-01T21:52:35.505+0100] [glassfish 5.1] [INFO] [] [org.glassfish.ha.store.adapter.file.FileBackingStore] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955505] [levelValue: 800] [[
+  [FileBackingStore::initialize] Successfully Created and initialized store. Working dir: D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105816413653172230; Configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105816413653172230-BackingStore', shortUniqueName='105816413653172230', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105816413653172230', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@3be95275}}]]
+
+[2021-03-01T21:52:35.505+0100] [glassfish 5.1] [INFO] [AS-EJB-00043] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955505] [levelValue: 800] [[
+  StatefulContainerbuilder instantiated store: org.glassfish.ha.store.adapter.file.FileBackingStore@67341fcb, with ha-enabled [false], and backing store configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105816413653172230-BackingStore', shortUniqueName='105816413653172230', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105816413653172230', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@3be95275}}]]
+
+[2021-03-01T21:52:35.516+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955516] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerSessionBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionLocal, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T21:52:35.516+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955516] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerSessionBean: [cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote#cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote, cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T21:52:35.532+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955532] [levelValue: 800] [[
+  Portable JNDI names for EJB MapManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T21:52:35.533+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955533] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB MapManagementBean: [cool.paul.fh.wortsuche.common.beans.MapManagementRemote, cool.paul.fh.wortsuche.common.beans.MapManagementRemote#cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T21:52:35.547+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955547] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementLocal]]]
+
+[2021-03-01T21:52:35.547+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955547] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerManagementBean: [cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote#cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote]]]
+
+[2021-03-01T21:52:35.563+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955563] [levelValue: 800] [[
+  Portable JNDI names for EJB GameManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T21:52:35.563+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955563] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameManagementBean: [cool.paul.fh.wortsuche.common.beans.GameManagementRemote#cool.paul.fh.wortsuche.common.beans.GameManagementRemote, cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T21:52:35.569+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631955569] [levelValue: 800] [[
+  Portable JNDI names for EJB MapSeederBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean!cool.paul.fh.wortsuche.seeder.MapSeederBean, java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean]]]
+
+[2021-03-01T21:52:40.123+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960123] [levelValue: 800] [[
+  Portable JNDI names for EJB GameInstanceBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T21:52:40.124+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960124] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameInstanceBean: [cool.paul.fh.wortsuche.common.beans.GameInstanceRemote, cool.paul.fh.wortsuche.common.beans.GameInstanceRemote#cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T21:52:40.188+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960188] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:52:40.190+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960190] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:52:40.191+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960191] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:52:40.193+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960193] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T21:52:40.198+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960198] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.200+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960200] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.200+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960200] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.201+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960201] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.204+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960204] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.205+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960205] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.206+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960206] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.206+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960206] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.207+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960207] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.208+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960208] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.208+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960208] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.209+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960209] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:40.209+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631960209] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-03-01T21:52:41.427+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614631961427] [levelValue: 800] [[
+  Wortsuche-ear was successfully deployed in 9.810 milliseconds.]]
+
+[2021-03-01T22:06:10.140+0100] [glassfish 5.1] [SEVERE] [] [] [tid: _ThreadID=67 _ThreadName=Thread-9] [timeMillis: 1614632770140] [levelValue: 1000] [[
+  Error while process customer request: com.sun.messaging.jms.ra.DirectObjectPacket cannot be cast to javax.jms.TextMessage]]
+
+[2021-03-01T22:06:24.358+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB.connection] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614632784358] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB logout successful]]
+
+[2021-03-01T22:06:24.359+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbcruntime] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614632784359] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T22:06:24.360+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614632784360] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T22:06:25.320+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.container.ejb.org.glassfish.ejb.persistent.timer] [tid: _ThreadID=56 _ThreadName=admin-listener(5)] [timeMillis: 1614632785320] [levelValue: 800] [[
+  No timers to be deleted for id: 105816413653172224]]
+
+[2021-03-01T22:06:26.742+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786742] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T22:06:26.787+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.tools.deployment.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786787] [levelValue: 800] [[
+  visiting unvisited references]]
+
+[2021-03-01T22:06:26.837+0100] [glassfish 5.1] [WARNING] [] [javax.enterprise.resource.resourceadapter.org.glassfish.jdbc.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786837] [levelValue: 900] [[
+  using.default.ds]]
+
+[2021-03-01T22:06:26.906+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786906] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Map actually got transformed]]
+
+[2021-03-01T22:06:26.909+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786909] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.SolvedWord actually got transformed]]
+
+[2021-03-01T22:06:26.911+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786911] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Word actually got transformed]]
+
+[2021-03-01T22:06:26.913+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786913] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Player actually got transformed]]
+
+[2021-03-01T22:06:26.915+0100] [glassfish 5.1] [INFO] [NCLS-COMUTIL-00017] [javax.enterprise.system.util] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786915] [levelValue: 800] [[
+  cool.paul.fh.wortsuche.common.entity.Game actually got transformed]]
+
+[2021-03-01T22:06:26.925+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632786925] [levelValue: 800] [[
+  EclipseLink, version: Eclipse Persistence Services - 2.7.4.v20190115-ad5b7c6b2a]]
+
+[2021-03-01T22:06:28.596+0100] [glassfish 5.1] [INFO] [] [org.eclipse.persistence.session./file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB.connection] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632788596] [levelValue: 800] [[
+  /file:/D:/componentware-stuff/glassfish5/glassfish/domains/domain1/eclipseApps/Wortsuche-ear/Wortsuche-ejb_jar/_XWortsucheDB login successful]]
+
+[2021-03-01T22:06:29.987+0100] [glassfish 5.1] [WARNING] [] [javax.org.glassfish.persistence.org.glassfish.persistence.common] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632789987] [levelValue: 900] [[
+  PER01000: Got SQLException executing statement "CREATE TABLE SEQUENCE (SEQ_NAME VARCHAR(50) NOT NULL, SEQ_COUNT DECIMAL(38), PRIMARY KEY (SEQ_NAME))": java.sql.SQLSyntaxErrorException: Table 'SEQUENCE' already exists]]
+
+[2021-03-01T22:06:30.034+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790034] [levelValue: 800] [[
+  Portable JNDI names for EJB MapSeederBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean!cool.paul.fh.wortsuche.seeder.MapSeederBean, java:global/Wortsuche-ear/Wortsuche-ejb/MapSeederBean]]]
+
+[2021-03-01T22:06:30.053+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790053] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerManagementBean!cool.paul.fh.wortsuche.common.beans.PlayerManagementLocal]]]
+
+[2021-03-01T22:06:30.053+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790053] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerManagementBean: [cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote#cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote, cool.paul.fh.wortsuche.common.beans.PlayerManagementRemote]]]
+
+[2021-03-01T22:06:30.069+0100] [glassfish 5.1] [INFO] [] [org.glassfish.ha.store.adapter.file.FileBackingStore] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790069] [levelValue: 800] [[
+  [FileBackingStore::initialize] Successfully Created and initialized store. Working dir: D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105816413653237766; Configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105816413653237766-BackingStore', shortUniqueName='105816413653237766', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105816413653237766', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@15d16c5a}}]]
+
+[2021-03-01T22:06:30.070+0100] [glassfish 5.1] [INFO] [AS-EJB-00043] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790070] [levelValue: 800] [[
+  StatefulContainerbuilder instantiated store: org.glassfish.ha.store.adapter.file.FileBackingStore@478128e7, with ha-enabled [false], and backing store configuration: BackingStoreConfiguration{clusterName='null', instanceName='null', storeName='PlayerSessionBean-105816413653237766-BackingStore', shortUniqueName='105816413653237766', storeType='file', maxIdleTimeInSeconds=-1, relaxVersionCheck='null', maxLoadWaitTimeInSeconds=0, baseDirectoryName='D:\componentware-stuff\glassfish5\glassfish\domains\domain1\session-store\PlayerSessionBean-105816413653237766', keyClazz=interface java.io.Serializable, valueClazz=class org.glassfish.ha.store.util.SimpleMetadata, synchronousSave=false, typicalPayloadSizeInKiloBytes=0, vendorSpecificSettings={value.class.is.thread.safe=true, async.replication=true, start.gms=false, local.caching=true, broadcast.remove.expired=false, key.transformer=com.sun.ejb.base.sfsb.util.SimpleKeyGenerator@15d16c5a}}]]
+
+[2021-03-01T22:06:30.076+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790076] [levelValue: 800] [[
+  Portable JNDI names for EJB PlayerSessionBean: [java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionLocal, java:global/Wortsuche-ear/Wortsuche-ejb/PlayerSessionBean!cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T22:06:30.076+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790076] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB PlayerSessionBean: [cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote#cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote, cool.paul.fh.wortsuche.common.beans.PlayerSessionRemote]]]
+
+[2021-03-01T22:06:30.102+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790102] [levelValue: 800] [[
+  Portable JNDI names for EJB GameInstanceBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameInstanceBean!cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T22:06:30.103+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790103] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameInstanceBean: [cool.paul.fh.wortsuche.common.beans.GameInstanceRemote, cool.paul.fh.wortsuche.common.beans.GameInstanceRemote#cool.paul.fh.wortsuche.common.beans.GameInstanceRemote]]]
+
+[2021-03-01T22:06:30.124+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790124] [levelValue: 800] [[
+  Portable JNDI names for EJB MapManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/MapManagementBean!cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T22:06:30.124+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632790124] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB MapManagementBean: [cool.paul.fh.wortsuche.common.beans.MapManagementRemote, cool.paul.fh.wortsuche.common.beans.MapManagementRemote#cool.paul.fh.wortsuche.common.beans.MapManagementRemote]]]
+
+[2021-03-01T22:06:34.718+0100] [glassfish 5.1] [INFO] [AS-EJB-00054] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794718] [levelValue: 800] [[
+  Portable JNDI names for EJB GameManagementBean: [java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementLocal, java:global/Wortsuche-ear/Wortsuche-ejb/GameManagementBean!cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T22:06:34.719+0100] [glassfish 5.1] [INFO] [AS-EJB-00055] [javax.enterprise.ejb.container] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794719] [levelValue: 800] [[
+  Glassfish-specific (Non-portable) JNDI names for EJB GameManagementBean: [cool.paul.fh.wortsuche.common.beans.GameManagementRemote#cool.paul.fh.wortsuche.common.beans.GameManagementRemote, cool.paul.fh.wortsuche.common.beans.GameManagementRemote]]]
+
+[2021-03-01T22:06:34.763+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794763] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] org.glassfish.sse.impl.ServerSentEventCdiExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>, BeanManager) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T22:06:34.764+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794764] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] private org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider.processAnnotatedType(@Observes ProcessAnnotatedType) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T22:06:34.768+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794768] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.glassfish.jms.injection.JMSCDIExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T22:06:34.769+0100] [glassfish 5.1] [INFO] [] [org.jboss.weld.Event] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794769] [levelValue: 800] [[
+  WELD-000411: Observer method [BackedAnnotatedMethod] public org.hibernate.validator.cdi.ValidationExtension.processAnnotatedType(@Observes ProcessAnnotatedType<T>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.]]
+
+[2021-03-01T22:06:34.773+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794773] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorMandatory is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.773+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794773] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNever is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.774+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794774] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorNotSupported is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.774+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794774] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequired is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.775+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794775] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorRequiresNew is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.775+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794775] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.cdi.transaction.TransactionalInterceptorSupports is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.776+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794776] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionHolder is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.776+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794776] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.WebAppExceptionInterceptor is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.776+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794776] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.transaction.internal.TransactionalExceptionMapper is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.780+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794780] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.ibm.jbatch.container.cdi.BatchProducerBean is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.780+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794780] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.internal.CdiComponentProvider$JaxRsParamProducer is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.781+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794781] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class org.glassfish.jersey.ext.cdi1x.servlet.internal.CdiExternalRequestScope is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:34.781+0100] [glassfish 5.1] [WARN] [] [org.jboss.weld.Bootstrap] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632794781] [levelValue: 900] [[
+  WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!]]
+
+[2021-03-01T22:06:35.933+0100] [glassfish 5.1] [INFO] [] [javax.enterprise.system.core] [tid: _ThreadID=53 _ThreadName=admin-listener(2)] [timeMillis: 1614632795933] [levelValue: 800] [[
+  Wortsuche-ear was successfully deployed in 9.212 milliseconds.]]
+
+[2021-03-01T22:06:55.371+0100] [glassfish 5.1] [INFO] [] [] [tid: _ThreadID=175 _ThreadName=Thread-8] [timeMillis: 1614632815371] [levelValue: 800] [[
+  creating map Map [id=16, width=6, height=5, characters=AHELLODESFGNDSEFGNDSLFGNAAAAAA, words=[Word [id=17, x1=1, x2=5, y1=0, y2=0], Word [id=18, x1=0, x2=0, y1=0, y2=0]]]]]
+
