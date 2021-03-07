@@ -16,8 +16,8 @@
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="8"/>
-		<item key="DIALOG_Y_ORIGIN" value="117"/>
+		<item key="DIALOG_X_ORIGIN" value="114"/>
+		<item key="DIALOG_Y_ORIGIN" value="65"/>
 	</section>
 	<section name="ImportExportAction">
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
@@ -30,5 +30,7 @@
 			<item value="org.eclipse.jst.ejb.ui"/>
 			<item value="org.eclipse.equinox.p2.category"/>
 		</list>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>

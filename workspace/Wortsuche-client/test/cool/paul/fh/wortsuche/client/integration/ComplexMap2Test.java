@@ -25,38 +25,67 @@ import cool.paul.fh.wortsuche.common.exception.WordAlreadySolvedException;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ComplexMap2Test extends AbstractTwoPlayerTest {
 
+	/*
+	 * Vor Beginn des Tests darf kein anderes Spiel laufen.
+	 */
 	@Test
 	public void _01_ensure_no_game_is_playing() {
 		assertEquals(null, h1.getGame());
 	}
 
+	/*
+	 * Es wird eine Karte ausgewählt. Dann ein neues Spiel auf der Karte erzeugt.
+	 * 
+	 * Bei beiden Clieten sollte das Spiel in den Zustand LOBBY sein.
+	 */
 	@Test
 	public void _02_start_new_game() throws GameAlreadyRunningException {
 		Map map = TestHelper.getBigMap(h2.getAllMaps());
 		h1.newGame(map);
 		assertEquals(GameState.LOBBY, h1.getGame().getState());
+		assertEquals(GameState.LOBBY, h2.getGame().getState());
 	}
 
+	/*
+	 * Der erste Spieler kann dem Spiel ohne Fehler betreiten.
+	 */
 	@Test
 	public void _03_join_player1() throws NoGameFoundException, PlayerNotFoundException, PlayerAlreadyJoinedException {
 		p1 = h1.join("Eins");
 	}
 
+	/*
+	 * Der zweite Spieler kann dem Spiel ohne Fehler betreiten.
+	 */
 	@Test
 	public void _04_join_player4() throws NoGameFoundException, PlayerNotFoundException, PlayerAlreadyJoinedException {
 		p2 = h2.join("Zwei");
 	}
 
+	/*
+	 * Das Spiel wird gestartet.
+	 * 
+	 * Bei beiden Clienten sollte das Spiel den Zustand RUNNING haben. Der erste
+	 * Spieler sollte dran sein.
+	 */
 	@Test
 	public void _05_start_game() throws NoGameFoundException, InterruptedException {
 		latch = new CountDownLatch(2);
 
 		h1.startGame();
 		latch.await();
+
 		assertEquals(GameState.RUNNING, h1.getGame().getState());
+		assertEquals(GameState.RUNNING, h2.getGame().getState());
 		assertEquals(p1, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Alle Wörter werden der Reihne nach gefunden. Es wird geprüft ob, der korrekte
+	 * Spieler an der Reihne ist und das Spiel in dem richtigen Zustand ist.
+	 * 
+	 * Nach dieser Methode ist das Spiel beendet, der Zustand sollte FINISHED sein.
+	 */
 	@Test
 	public void _06_auto_play_all_words()
 			throws InterruptedException, NotYourTurnException, WordAlreadySolvedException, NoGameFoundException {
@@ -93,11 +122,16 @@ public class ComplexMap2Test extends AbstractTwoPlayerTest {
 		assertEquals(GameState.FINISHED, h1.getGame().getState());
 	}
 
+	/*
+	 * Das Spiel wird gestoppt, danach sollte es nicht mehr über die Clienten
+	 * abrufbar sein.
+	 */
 	@Test
 	public void _07_stop_game() throws NoGameFoundException {
 		h1.stopGame();
 
 		assertEquals(null, h1.getGame());
+		assertEquals(null, h2.getGame());
 	}
 
 }

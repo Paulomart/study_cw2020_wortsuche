@@ -21,28 +21,49 @@ import cool.paul.fh.wortsuche.common.exception.WordAlreadySolvedException;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class SimpleMap1Test extends AbstractTwoPlayerTest {
 
+	/*
+	 * Vor Beginn des Tests darf kein anderes Spiel laufen.
+	 */
 	@Test
 	public void _01_ensure_no_game_is_playing() {
 		assertEquals(null, h1.getGame());
 	}
 
+	/*
+	 * Ein neues Spiel wird auf der kleinen Map gestartet.
+	 * 
+	 * Das Spiel sollte von beiden Clients aus den Status LOBBY haben.
+	 */
 	@Test
 	public void _02_start_new_game() throws GameAlreadyRunningException {
 		Map map = TestHelper.getSmallMap(h2.getAllMaps());
 		h1.newGame(map);
 		assertEquals(GameState.LOBBY, h1.getGame().getState());
+		assertEquals(GameState.LOBBY, h2.getGame().getState());
 	}
 
+	/*
+	 * Der erste Spieler sollte den Spiel betretten können.
+	 */
 	@Test
 	public void _03_join_player1() throws NoGameFoundException, PlayerNotFoundException, PlayerAlreadyJoinedException {
 		p1 = h1.join("Eins");
 	}
 
+	/*
+	 * Der zweite Spieler sollte den Spiel betretten können.
+	 */
 	@Test
 	public void _04_join_player4() throws NoGameFoundException, PlayerNotFoundException, PlayerAlreadyJoinedException {
 		p2 = h2.join("Zwei");
 	}
 
+	/*
+	 * Das Spiel wird gestartet.
+	 * 
+	 * Das Spiel sollte den Zustand RUNNING haben. Der erste Spieler sollte an der
+	 * Reihe sein.
+	 */
 	@Test
 	public void _05_start_game() throws NoGameFoundException, InterruptedException {
 		latch = new CountDownLatch(2);
@@ -53,6 +74,13 @@ public class SimpleMap1Test extends AbstractTwoPlayerTest {
 		assertEquals(p1, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Der erste Spieler wählt das Wort mit den Koordinaten (1/0), (5/0) aus. Dort
+	 * sollte das Wort "HELLO" stehen.
+	 * 
+	 * Das Spiel sollte ein gefundenes Wort haben. Das Spiel sollte den Zustand
+	 * RUNNING haben. Der zweite Spieler sollte an der Reihe sein.
+	 */
 	@Test
 	public void _06_select_word()
 			throws NotYourTurnException, WordAlreadySolvedException, NoGameFoundException, InterruptedException {
@@ -67,17 +95,32 @@ public class SimpleMap1Test extends AbstractTwoPlayerTest {
 		assertEquals(p2, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Der zweite Spieler versucht das Wort zu lösen, welches bereits vom ersten
+	 * Spieler gelöst wurden. Dies sollte einen Fehler auslösen.
+	 */
 	@Test(expected = WordAlreadySolvedException.class)
 	public void _07_selected_already_solved_word()
 			throws NotYourTurnException, WordAlreadySolvedException, NoGameFoundException {
 		h2.selectWord(1, 0, 5, 0);
 	}
 
+	/*
+	 * Der erste Spieler versucht einen Zug zu machen, obwohl er nicht an der Reihe
+	 * ist. Dies sollte einen Fehler auslösen.
+	 */
 	@Test(expected = NotYourTurnException.class)
 	public void _08_illegal_turn_order() throws NotYourTurnException, WordAlreadySolvedException, NoGameFoundException {
 		h1.selectWord(2, 0, 2, 3);
 	}
 
+	/*
+	 * Der zweite Spieler findet das letzte Wort in der Karte mit den Koordinaten
+	 * (2/0), (2/3). Das Wort sollte "ESEL" heißen.
+	 * 
+	 * Das Spiel sollte 2 gelöste Wörter haben. Das Spiel sollte nun in dem Zustand
+	 * FINISHED sein. Kein Spieler sollte am Zug sein.
+	 */
 	@Test
 	public void _09_select_last_word()
 			throws NotYourTurnException, WordAlreadySolvedException, NoGameFoundException, InterruptedException {
@@ -92,6 +135,11 @@ public class SimpleMap1Test extends AbstractTwoPlayerTest {
 		assertEquals(null, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Das Spiel wird beendet.
+	 * 
+	 * Das Spiel sollte nun nicht mehr vorhanden sein.
+	 */
 	@Test
 	public void _10_stop_game() throws NoGameFoundException {
 		h1.stopGame();

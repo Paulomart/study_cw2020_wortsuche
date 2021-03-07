@@ -33,11 +33,18 @@ import cool.paul.fh.wortsuche.common.exception.WordAlreadySolvedException;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ResumeGameTest extends AbstractTwoPlayerTest {
 
+	/*
+	 * Vor Beginn des Tests darf kein anderes Spiel laufen.
+	 */
 	@Test
 	public void _01_ensure_no_game_is_playing() {
 		assertEquals(null, h1.getGame());
 	}
 
+	/*
+	 * Diese Methode erstellt ein angefanges Spiel. Über eine spezielle Methode wird
+	 * ein Spiel angelegt. Diese Methode testet nichts.
+	 */
 	@Test
 	@SuppressWarnings("deprecation")
 	public void _02_seed_game() throws NamingException {
@@ -70,6 +77,12 @@ public class ResumeGameTest extends AbstractTwoPlayerTest {
 		gameManagement.$$createGameForTesting(game);
 	}
 
+	/*
+	 * Setzt das Spiel fort. Beide Spieler müssen wieder dem Spiel betretten.
+	 * 
+	 * Das Spiel sollte den Zustand RUNNING haben. Der zweite Spieler sollte dran
+	 * sein.
+	 */
 	@Test
 	public void _03_resume_game() throws GameAlreadyRunningException, NoGameFoundException, PlayerNotFoundException,
 			PlayerAlreadyJoinedException {
@@ -82,6 +95,12 @@ public class ResumeGameTest extends AbstractTwoPlayerTest {
 		assertEquals(p2, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Der zweite Spieler errät das letzte Wort.
+	 * 
+	 * Das Spiel sollte den Zustand FINISHED haben. Alle Wörter sollten gefunden
+	 * worden sein. Kein Spieler sollte dran sein.
+	 */
 	@Test
 	public void _04_select_last_word()
 			throws NotYourTurnException, WordAlreadySolvedException, NoGameFoundException, InterruptedException {
@@ -97,6 +116,9 @@ public class ResumeGameTest extends AbstractTwoPlayerTest {
 		assertEquals(null, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Das Spiel wird beendet.
+	 */
 	@Test
 	public void _05_stop_game() throws NoGameFoundException {
 		h1.stopGame();

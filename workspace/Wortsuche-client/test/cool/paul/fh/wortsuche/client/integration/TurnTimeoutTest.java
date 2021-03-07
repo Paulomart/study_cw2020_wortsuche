@@ -19,11 +19,19 @@ import cool.paul.fh.wortsuche.common.exception.PlayerNotFoundException;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class TurnTimeoutTest extends AbstractTwoPlayerTest {
 
+	/*
+	 * Vor Beginn des Tests darf kein anderes Spiel laufen.
+	 */
 	@Test
 	public void _01_ensure_no_game_is_playing() {
 		assertEquals(null, h1.getGame());
 	}
 
+	/*
+	 * Ein neues Spiel wird auf der kleinen Karte gestartet.
+	 * 
+	 * Das Spiel sollte den Zustand LOBBY haben.
+	 */
 	@Test
 	public void _02_start_new_game() throws GameAlreadyRunningException {
 		Map map = TestHelper.getSmallMap(h2.getAllMaps());
@@ -31,16 +39,28 @@ public class TurnTimeoutTest extends AbstractTwoPlayerTest {
 		assertEquals(GameState.LOBBY, h1.getGame().getState());
 	}
 
+	/*
+	 * Der erste Spieler kann den Spiel ohne Fehler betretten.
+	 */
 	@Test
 	public void _03_join_player1() throws NoGameFoundException, PlayerNotFoundException, PlayerAlreadyJoinedException {
 		p1 = h1.join("Eins");
 	}
 
+	/*
+	 * Der zweite Spieler kann den Spiel ohne Fehler betretten.
+	 */
 	@Test
 	public void _04_join_player4() throws NoGameFoundException, PlayerNotFoundException, PlayerAlreadyJoinedException {
 		p2 = h2.join("Zwei");
 	}
 
+	/*
+	 * Das Spiel wird gestartet.
+	 * 
+	 * Anschließend sollte das Spiel in den Zustand RUNNING sein. Der erste Spieler
+	 * sollte am Zug sein.
+	 */
 	@Test
 	public void _05_start_game() throws NoGameFoundException, InterruptedException {
 		latch = new CountDownLatch(2);
@@ -51,6 +71,13 @@ public class TurnTimeoutTest extends AbstractTwoPlayerTest {
 		assertEquals(p1, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Der erste Spieler benötigt länger als 10 Sekunden seinen Zug auszuführen.
+	 * Daher wird er übersprungen.
+	 * 
+	 * Das Spiel sollte weiter den Zustand RUNNING haben. Der zweite Spieler sollte
+	 * dran sein.
+	 */
 	@Test
 	public void _06_sleep_to_long() {
 		try {
@@ -62,6 +89,11 @@ public class TurnTimeoutTest extends AbstractTwoPlayerTest {
 		assertEquals(p2, h1.getGame().getCurrentTurn());
 	}
 
+	/*
+	 * Das Spiel wird beendet.
+	 * 
+	 * Das Spiel sollte nun nicht mehr vorhanden sein.
+	 */
 	@Test
 	public void _07_stop_game() throws NoGameFoundException {
 		h1.stopGame();

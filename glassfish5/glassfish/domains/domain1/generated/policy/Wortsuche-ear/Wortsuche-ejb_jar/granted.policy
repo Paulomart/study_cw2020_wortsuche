@@ -1,4 +1,4 @@
-/* AUTOMATICALLY GENERATED ON Mon Mar 01 22:06:34 CET 2021*/
+/* AUTOMATICALLY GENERATED ON Sun Mar 07 14:19:26 CET 2021*/
 /* DO NOT EDIT */
 
 grant {
@@ -20,13 +20,13 @@ grant {
   permission javax.security.jacc.EJBMethodPermission "PlayerSessionBean", "join,Remote,java.lang.String";
   permission javax.security.jacc.EJBMethodPermission "MapManagementBean", "fromArray,Local,java.lang.String[],int[]";
   permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "getGame,Local,";
-  permission javax.security.jacc.EJBMethodPermission "PlayerManagementBean", "deletePlayer,Local,cool.paul.fh.wortsuche.common.entity.Player";
   permission javax.security.jacc.EJBMethodPermission "MapManagementBean", "getMapById,Local,int";
+  permission javax.security.jacc.EJBMethodPermission "PlayerManagementBean", "deletePlayer,Local,cool.paul.fh.wortsuche.common.entity.Player";
   permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "start,Remote,";
   permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "getGame,Remote,";
   permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "start,Local,";
-  permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "newGame,Local,cool.paul.fh.wortsuche.common.entity.Map";
   permission javax.security.jacc.EJBMethodPermission "GameManagementBean", "$$createGameForTesting,Remote,cool.paul.fh.wortsuche.common.entity.Game";
+  permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "newGame,Local,cool.paul.fh.wortsuche.common.entity.Map";
   permission javax.security.jacc.EJBMethodPermission "GameManagementBean", "deleteGame,Local,cool.paul.fh.wortsuche.common.entity.Game";
   permission javax.security.jacc.EJBMethodPermission "GameInstanceBean", "stop,Local,";
   permission javax.security.jacc.EJBMethodPermission "PlayerManagementBean", "newPlayer,Local,java.lang.String";
